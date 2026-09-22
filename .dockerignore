@@ -1,0 +1,11 @@
+.git
+.gitignore
+.env
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.wav
+models/
+deploy/
+*.md
+start_bridge.ps1

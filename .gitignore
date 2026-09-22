@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+*.wav
+
+# Checkpoints are far too large for git; only the folder's instructions are tracked.
+models/*
+!models/README.md

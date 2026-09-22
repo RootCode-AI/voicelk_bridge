@@ -1,0 +1,36 @@
+# Speech-stack dependencies for a machine that has nothing installed yet — a VPS, a
+# container, a fresh clone. On a workstation that already has the research
+# environment, install only requirements.txt into that environment instead.
+#
+# Neither the Coqui TTS library nor the trainer package appears here: both are
+# carried as real source inside this service (see the vendor folder), which is how
+# the project keeps all code it actually uses presentable and reviewable.
+#
+# IMPORTANT — install torch from the CPU index on a server without a GPU, otherwise
+# pip pulls the CUDA build and drags in gigabytes of drivers this service never uses:
+#
+#   pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements-ml.txt
+
+# --- acoustic model runtime ---
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.3
+scipy>=1.11.2
+soundfile>=0.12.0
+librosa>=0.10.0
+coqpit>=0.0.16
+fsspec>=2023.6.0
+packaging>=23.1
+pyyaml>=6.0
+psutil>=5.9.0
+tqdm>=4.65.0
+mutagen>=1.47.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# --- text front-end (normalisation and code-switched grapheme-to-phoneme) ---
+sinling>=0.3.6
+eng-to-ipa>=0.0.2
+anyascii>=0.3.0
+inflect>=5.6.0
+pysbd>=0.3.4

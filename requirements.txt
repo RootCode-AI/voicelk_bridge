@@ -1,0 +1,12 @@
+# VoiceLK TTS Bridge — service-layer dependencies only.
+#
+# This list deliberately does NOT repeat the ML stack. The bridge is meant to run
+# inside the existing training/inference environment, which already provides torch,
+# torchaudio, scipy, soundfile, librosa, numpy and the NLP libraries, and which also
+# holds the vendored TTS/trainer sources the project ships as its own code.
+# Install this file into that same environment.
+
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+python-dotenv>=1.0.0

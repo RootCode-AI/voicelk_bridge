@@ -1,0 +1,39 @@
+# systemd unit for the VoiceLK TTS Bridge, for servers that do not run Docker.
+#
+# Install:
+#   sudo cp deploy/voicelk-bridge.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now voicelk-bridge
+#
+# Adjust User, WorkingDirectory and the environment file to match the server. The
+# environment file holds the API key, so keep it readable only by root and the
+# service user (chmod 640).
+
+[Unit]
+Description=VoiceLK TTS Bridge
+Documentation=https://github.com/RootCode-AI
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=exec
+User=voicelk
+Group=voicelk
+WorkingDirectory=/srv/voicelk/bridge
+EnvironmentFile=/etc/voicelk/bridge.env
+ExecStart=/srv/voicelk/bridge/.venv/bin/python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --workers 1
+
+Restart=on-failure
+RestartSec=10
+# Loading a checkpoint takes a while; do not call the service failed too early.
+TimeoutStartSec=300
+
+# The service only ever reads model files and writes nothing outside /tmp.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadOnlyPaths=/srv/voicelk
+
+[Install]
+WantedBy=multi-user.target

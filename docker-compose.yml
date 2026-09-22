@@ -1,0 +1,34 @@
+# Runs the TTS bridge on a server.
+#
+# Checkpoints live outside the image and outside git. Put them on the host — one
+# folder per training run, each with its config file — and point MODELS_DIR at it.
+#
+#   MODELS_DIR=/srv/voicelk/models docker compose up -d --build
+#
+# The service listens on the loopback interface only, because the Java backend is
+# its single client. Publish it more widely only behind a reverse proxy with TLS.
+
+services:
+  tts-bridge:
+    build: .
+    image: voicelk/tts-bridge:latest
+    container_name: voicelk-tts-bridge
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${BRIDGE_PORT:-8000}:8000"
+    volumes:
+      - ${MODELS_DIR:-./models}:/models:ro
+    environment:
+      VOICELK_MODELS_ROOT: /models
+      VOICELK_DEFAULT_MODEL: ${VOICELK_DEFAULT_MODEL:-pathnirwana}
+      VOICELK_PRELOAD_MODEL: ${VOICELK_PRELOAD_MODEL:-true}
+      VOICELK_BRIDGE_API_KEY: ${VOICELK_BRIDGE_API_KEY:?set a shared secret before deploying}
+      VOICELK_LOG_LEVEL: ${VOICELK_LOG_LEVEL:-info}
+      VOICELK_MAX_TEXT_CHARS: ${VOICELK_MAX_TEXT_CHARS:-1200}
+      # Torch spawns one thread per core by default and then fights itself on a
+      # small VPS; two is a sane starting point for a 2–4 core box.
+      OMP_NUM_THREADS: ${OMP_NUM_THREADS:-2}
+    deploy:
+      resources:
+        limits:
+          memory: ${BRIDGE_MEMORY_LIMIT:-4g}
