@@ -1,0 +1,41 @@
+name: Feature request
+description: Suggest a new endpoint, setting or deployment improvement.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The bridge only turns text into speech. Storage, authentication and audio records
+        belong to the backend, and front-end changes belong to the research repository.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What are you trying to do that the bridge does not support today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: How it should work — request and response shapes, new settings, defaults.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other ways to solve it, including doing it in the backend instead.
+
+  - type: checkboxes
+    id: contract
+    attributes:
+      label: Impact
+      options:
+        - label: This changes the API the Spring Boot backend calls (paths, headers or error codes).
+        - label: This needs a new dependency.
+        - label: I am willing to open a pull request for it.

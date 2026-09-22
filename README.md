@@ -143,3 +143,16 @@ that will not load.
   different models can run concurrently.
 - Run one worker. Every extra worker loads its own copy of the weights.
 - No API key means an open service — acceptable on a development machine, nowhere else.
+
+## Contributing
+
+Issues and pull requests are welcome — read [`CONTRIBUTING.md`](CONTRIBUTING.md) first,
+especially the rule that `vendor/` is generated and never edited by hand. Report
+security problems privately as described in [`SECURITY.md`](SECURITY.md). Everyone
+taking part follows the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## License
+
+The bridge's own code is released under the [MIT License](LICENSE). The vendored Coqui
+`TTS` (MPL-2.0) and `trainer` (Apache-2.0) sources keep their original licenses; see
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).

@@ -1,0 +1,61 @@
+name: Pronunciation problem
+description: A Sinhala or English word, number or symbol is spoken wrongly.
+title: "[Pronunciation]: "
+labels: ["pronunciation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A mispronunciation comes from one of two places: the text front-end (normaliser,
+        G2P, lexicon) or the trained model. The phoneme output below tells them apart.
+        Front-end fixes are made in the research repository and synced here — see
+        `CONTRIBUTING.md`.
+
+  - type: textarea
+    id: text
+    attributes:
+      label: Input text
+      description: The exact text you sent. Keep it as short as possible while still showing the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What it should sound like
+      description: The word or phrase that is wrong, and how it should be said (romanisation or IPA if you can).
+    validations:
+      required: true
+
+  - type: textarea
+    id: phonemes
+    attributes:
+      label: "`POST /api/v1/phonemes` output"
+      description: The normalised text and IPA the bridge produced for this input.
+      render: json
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: Model and speaker
+      description: The model key, speaker index and speed, plus the `X-Model-Version` header from the synthesis response.
+      placeholder: "pathnirwana, speaker 0, speed 1.0, X-Model-Version: …"
+    validations:
+      required: true
+
+  - type: input
+    id: frontend
+    attributes:
+      label: Front-end status
+      description: The `frontend.status` and `frontend.fingerprint` values from `GET /health`.
+      placeholder: "clean, d61d2579fa2dbd30"
+    validations:
+      required: true
+
+  - type: textarea
+    id: audio
+    attributes:
+      label: Audio
+      description: Attach the generated clip if you can (zip the WAV — GitHub does not accept .wav attachments).

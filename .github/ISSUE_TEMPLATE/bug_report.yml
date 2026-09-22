@@ -1,0 +1,69 @@
+name: Bug report
+description: The service errors, crashes, returns the wrong response or will not start.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. If a word is spoken wrongly but the service otherwise works,
+        use the **Pronunciation problem** template instead.
+        Never paste your API key or the contents of your `.env`.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to reproduce
+      description: The request that triggers it (endpoint, body, model key, speaker, speed).
+      placeholder: |
+        curl -X POST http://127.0.0.1:8000/api/v1/synthesize \
+          -H "Content-Type: application/json" -H "X-API-Key: ***" \
+          -d '{"text": "…", "model": "pathnirwana", "speaker_id": 0, "speed": 1.0}'
+    validations:
+      required: true
+
+  - type: textarea
+    id: response
+    attributes:
+      label: Response and logs
+      description: The status code, the JSON error body, and the relevant service log lines.
+      render: text
+
+  - type: textarea
+    id: health
+    attributes:
+      label: "`GET /health` output"
+      description: Shows the version, the front-end status and which models are loaded.
+      render: json
+
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: How is the bridge running?
+      options:
+        - Docker (docker compose)
+        - Linux with run_bridge.sh / systemd
+        - Windows with start_bridge.ps1
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: commit
+    attributes:
+      label: Commit
+      description: Output of `git rev-parse --short HEAD`.
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, CPU or GPU, and any `VOICELK_*` settings you changed (without secrets).
