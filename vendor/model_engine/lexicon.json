@@ -2,43 +2,37 @@
   "metadata": {
     "title": "O/L ICT Complete (Grade 10 & 11) Domain-Specific Pronunciation Lexicon",
     "description": "Exhaustive technical vocabulary mapped from Sri Lankan O/L ICT national curriculum textbooks. Optimized for code-switched synthesis pipelines to prevent phonetic collapses on domain jargon, conjuncts, and loanwords.",
-    "source_documents": [
-      "ICT G-10 English.pdf",
-      "ICT G-10 Sinhala.pdf",
-      "ICT G-11 English.pdf",
-      "ICT G-11 Sinhala.pdf"
-    ],
     "generated": "2026-07-04",
-    "updated": "2026-09-02",
-    "schema_version": "1.3",
-    "ipa_format": "plain (character-level phonemes concatenated with no separator within a word, words space-separated, punctuation preserved)",
-    "en_lexicon_count": 374,
-    "si_lexicon_count": 115
+    "updated": "2026-10-10",
+    "schema_version": "1.5",
+    "ipa_format": "plain (character-level phonemes concatenated with no separator within a word, words space-separated, punctuation preserved); English in eng_to_ipa's symbol set, affricates as tʃ / dʒ, Sinhala as spoken (unaspirated, ෂ = ʃ, schwa where everyday speech reduces /a/)",
+    "en_lexicon_count": 465,
+    "si_lexicon_count": 108
   },
   "en_lexicon": {
     "ict": {
-      "ipa": "ˌaɪ siː ˈtiː",
+      "ipa": "ˌaɪ si ˈti",
       "read_as": "letters",
       "expansion": "Information and Communication Technology",
       "chapter": "Introduction to ICT",
       "risk": "often mis-split by raw rule engines"
     },
     "information": {
-      "ipa": "ˌɪnfəˈmeɪʃən",
+      "ipa": "ˌɪnfərˈmeɪʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Introduction to ICT",
       "risk": ""
     },
     "technology": {
-      "ipa": "tekˈnɒlədʒɪ",
+      "ipa": "tɛkˈnɑlədʒi",
       "read_as": "word",
       "expansion": null,
       "chapter": "Introduction to ICT",
       "risk": ""
     },
     "communication": {
-      "ipa": "kəˌmjuːnɪˈkeɪʃən",
+      "ipa": "kəˌmjunɪˈkeɪʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Introduction to ICT",
@@ -52,70 +46,70 @@
       "risk": "commonly read as US data; local standard is DAY-ta"
     },
     "knowledge": {
-      "ipa": "ˈnɒlɪdʒ",
+      "ipa": "ˈnɑlɪdʒ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Introduction to ICT",
       "risk": ""
     },
     "hardware": {
-      "ipa": "ˈhɑːdˌweə",
+      "ipa": "ˈhɑrdˌwɛr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "software": {
-      "ipa": "ˈsɒftˌweə",
+      "ipa": "ˈsɑftˌwɛr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "liveware": {
-      "ipa": "ˈlaɪʋˌweə",
+      "ipa": "ˈlaɪʋˌwɛr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "firmware": {
-      "ipa": "ˈfɜːmˌweə",
+      "ipa": "ˈfərmˌwɛr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "computer": {
-      "ipa": "kəmˈpjuːtə",
+      "ipa": "kəmˈpjutər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "architecture": {
-      "ipa": "ˈɑːkɪˌtektʃə",
+      "ipa": "ˈɑrkɪˌtɛktʃər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "processor": {
-      "ipa": "ˈprəʊsesə",
+      "ipa": "ˈproʊsɛsər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "motherboard": {
-      "ipa": "ˈmʌðəˌbɔːd",
+      "ipa": "ˈmʌðərˌbɔrd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "register": {
-      "ipa": "ˈredʒɪstə",
+      "ipa": "ˈrɛdʒɪstər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
@@ -129,7 +123,7 @@
       "risk": "must rhyme with cash, not cashay"
     },
     "memory": {
-      "ipa": "ˈmemərɪ",
+      "ipa": "ˈmɛməri",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
@@ -143,7 +137,7 @@
       "risk": ""
     },
     "storage": {
-      "ipa": "ˈstɔːrɪdʒ",
+      "ipa": "ˈstɔrɪdʒ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
@@ -171,7 +165,7 @@
       "risk": ""
     },
     "keyboard": {
-      "ipa": "ˈkiːˌbɔːd",
+      "ipa": "ˈkiˌbɔrd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
@@ -185,63 +179,63 @@
       "risk": ""
     },
     "scanner": {
-      "ipa": "ˈskænə",
+      "ipa": "ˈskænər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "printer": {
-      "ipa": "ˈprɪntə",
+      "ipa": "ˈprɪntər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "monitor": {
-      "ipa": "ˈmɒnɪtə",
+      "ipa": "ˈmɑnɪtər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "port": {
-      "ipa": "pɔːt",
+      "ipa": "pɔrt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "slot": {
-      "ipa": "slɒt",
+      "ipa": "slɑt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "binary": {
-      "ipa": "ˈbaɪnərɪ",
+      "ipa": "ˈbaɪnəri",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
       "risk": ""
     },
     "decimal": {
-      "ipa": "ˈdesɪməl",
+      "ipa": "ˈdɛsɪməl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
       "risk": ""
     },
     "octal": {
-      "ipa": "ˈɒktəl",
+      "ipa": "ˈɑktəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
       "risk": ""
     },
     "hexadecimal": {
-      "ipa": "ˌheksəˈdesɪməl",
+      "ipa": "ˌhɛksəˈdɛsɪməl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
@@ -269,105 +263,105 @@
       "risk": "must read as word, not spell out as letters"
     },
     "rom": {
-      "ipa": "rɒm",
+      "ipa": "rɑm",
       "read_as": "word",
       "expansion": "Read Only Memory",
       "chapter": "Computer Fundamentals",
       "risk": "must read as word, not spell out as letters"
     },
     "mb": {
-      "ipa": "ɛm biː",
+      "ipa": "ɛm bi",
       "read_as": "letters",
       "expansion": "Megabyte",
       "chapter": "Data Representation",
       "risk": ""
     },
     "gb": {
-      "ipa": "dʒiː biː",
+      "ipa": "dʒi bi",
       "read_as": "letters",
       "expansion": "Gigabyte",
       "chapter": "Data Representation",
       "risk": ""
     },
     "kb": {
-      "ipa": "keɪ biː",
+      "ipa": "keɪ bi",
       "read_as": "letters",
       "expansion": "Kilobyte",
       "chapter": "Data Representation",
       "risk": ""
     },
     "tb": {
-      "ipa": "tiː biː",
+      "ipa": "ti bi",
       "read_as": "letters",
       "expansion": "Terabyte",
       "chapter": "Data Representation",
       "risk": ""
     },
     "usb": {
-      "ipa": "juː es biː",
+      "ipa": "ju ɛs bi",
       "read_as": "letters",
       "expansion": "Universal Serial Bus",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "ascii": {
-      "ipa": "ˈæskɪ",
+      "ipa": "ˈæski",
       "read_as": "word",
       "expansion": "American Standard Code for Information Interchange",
       "chapter": "Data Representation",
       "risk": "G2P engines often wrongly spell it out as letters"
     },
     "unicode": {
-      "ipa": "ˈjuːnɪˌkəʊd",
+      "ipa": "ˈjunɪˌkoʊd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
       "risk": ""
     },
     "logic": {
-      "ipa": "ˈlɒdʒɪk",
+      "ipa": "ˈlɑdʒɪk",
       "read_as": "word",
       "expansion": null,
       "chapter": "Logic Gates",
       "risk": ""
     },
     "gate": {
-      "ipa": "ɡeɪt",
+      "ipa": "geɪt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Logic Gates",
       "risk": ""
     },
     "operating": {
-      "ipa": "ˈɒpəˌreɪtɪŋ",
+      "ipa": "ˈɑpəˌreɪtɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
       "risk": ""
     },
     "interface": {
-      "ipa": "ˈɪntəˌfeɪs",
+      "ipa": "ˈɪntərˌfeɪs",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
       "risk": ""
     },
     "gui": {
-      "ipa": "ˈɡuːi",
+      "ipa": "ˈgui",
       "read_as": "word",
       "expansion": "Graphical User Interface",
       "chapter": "Operating Systems",
       "risk": "read as word gooey, must not spell out"
     },
     "cli": {
-      "ipa": "ˌsiː el ˈaɪ",
+      "ipa": "ˌsi ɛl ˈaɪ",
       "read_as": "letters",
       "expansion": "Command Line Interface",
       "chapter": "Operating Systems",
       "risk": ""
     },
     "windows": {
-      "ipa": "ˈwɪndəʊz",
+      "ipa": "ˈwɪndoʊz",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
@@ -381,7 +375,7 @@
       "risk": ""
     },
     "ubuntu": {
-      "ipa": "ʊˈbʊntuː",
+      "ipa": "ʊˈbʊntu",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
@@ -395,21 +389,21 @@
       "risk": ""
     },
     "folder": {
-      "ipa": "ˈfəʊldə",
+      "ipa": "ˈfoʊldər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
       "risk": ""
     },
     "utility": {
-      "ipa": "juːˈtɪlɪtɪ",
+      "ipa": "juˈtɪlɪti",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
       "risk": ""
     },
     "formatting": {
-      "ipa": "ˈfɔːmætɪŋ",
+      "ipa": "ˈfɔrmætɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
@@ -423,56 +417,56 @@
       "risk": ""
     },
     "word": {
-      "ipa": "wɜːd",
+      "ipa": "wərd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Word Processing",
       "risk": ""
     },
     "processing": {
-      "ipa": "ˈprəʊsesɪŋ",
+      "ipa": "ˈproʊsɛsɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Word Processing",
       "risk": ""
     },
     "spreadsheet": {
-      "ipa": "ˈspredˌʃiːt",
+      "ipa": "ˈsprɛdˌʃit",
       "read_as": "word",
       "expansion": null,
       "chapter": "Spreadsheet",
       "risk": ""
     },
     "presentation": {
-      "ipa": "ˌprezenˈteɪʃən",
+      "ipa": "ˌprɛzɛnˈteɪʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Presentations",
       "risk": ""
     },
     "cell": {
-      "ipa": "sel",
+      "ipa": "sɛl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Spreadsheet",
       "risk": ""
     },
     "row": {
-      "ipa": "rəʊ",
+      "ipa": "roʊ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Spreadsheet",
       "risk": ""
     },
     "column": {
-      "ipa": "ˈkɒləm",
+      "ipa": "ˈkɑləm",
       "read_as": "word",
       "expansion": null,
       "chapter": "Spreadsheet",
       "risk": ""
     },
     "formula": {
-      "ipa": "ˈfɔːmjʊlə",
+      "ipa": "ˈfɔrmjʊlə",
       "read_as": "word",
       "expansion": null,
       "chapter": "Spreadsheet",
@@ -486,7 +480,7 @@
       "risk": ""
     },
     "chart": {
-      "ipa": "tʃɑːt",
+      "ipa": "tʃɑrt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Spreadsheet",
@@ -521,63 +515,63 @@
       "risk": ""
     },
     "record": {
-      "ipa": "ˈrekɔːd",
+      "ipa": "ˈrɛkɔrd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "field": {
-      "ipa": "fiːld",
+      "ipa": "fild",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "primary": {
-      "ipa": "ˈpraɪmərɪ",
+      "ipa": "ˈpraɪməri",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "foreign": {
-      "ipa": "ˈfɒrɪn",
+      "ipa": "ˈfɑrɪn",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "key": {
-      "ipa": "kiː",
+      "ipa": "ki",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "query": {
-      "ipa": "ˈkweərɪ",
+      "ipa": "ˈkwɛri",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": "commonly mispronounced as kway-ree"
     },
     "form": {
-      "ipa": "fɔːm",
+      "ipa": "fɔrm",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "report": {
-      "ipa": "rɪˈpɔːt",
+      "ipa": "rɪˈpɔrt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "dbms": {
-      "ipa": "ˌdiː biː em ˈes",
+      "ipa": "ˌdi bi ɛm ˈɛs",
       "read_as": "letters",
       "expansion": "Database Management System",
       "chapter": "Database Management Systems",
@@ -591,21 +585,21 @@
       "risk": ""
     },
     "sql": {
-      "ipa": "ˌes kjuː ˈel",
+      "ipa": "ˌɛs kju ˈɛl",
       "read_as": "letters",
       "expansion": "Structured Query Language",
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "attribute": {
-      "ipa": "ˈætrɪˌbjuːt",
+      "ipa": "ˈætrɪˌbjut",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
       "risk": ""
     },
     "entity": {
-      "ipa": "ˈentɪtɪ",
+      "ipa": "ˈɛntɪti",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database Management Systems",
@@ -626,21 +620,21 @@
       "risk": ""
     },
     "network": {
-      "ipa": "ˈnetˌwɜːk",
+      "ipa": "ˈnɛtˌwərk",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
       "risk": ""
     },
     "internet": {
-      "ipa": "ˈɪntəˌnet",
+      "ipa": "ˈɪntərˌnɛt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
       "risk": ""
     },
     "topology": {
-      "ipa": "tɒˈpɒlədʒɪ",
+      "ipa": "tɑˈpɑlədʒi",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
@@ -654,7 +648,7 @@
       "risk": ""
     },
     "star": {
-      "ipa": "stɑː",
+      "ipa": "stɑr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
@@ -668,7 +662,7 @@
       "risk": ""
     },
     "protocol": {
-      "ipa": "ˈprəʊtəkɒl",
+      "ipa": "ˈproʊtəkɑl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
@@ -689,35 +683,35 @@
       "risk": ""
     },
     "router": {
-      "ipa": "ˈruːtə",
+      "ipa": "ˈrutər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
       "risk": "local standard prefers rooter over US rowter"
     },
     "gateway": {
-      "ipa": "ˈɡeɪtˌweɪ",
+      "ipa": "ˈgeɪtˌweɪ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
       "risk": ""
     },
     "modem": {
-      "ipa": "ˈməʊdem",
+      "ipa": "ˈmoʊdɛm",
       "read_as": "word",
       "expansion": "Modulator-Demodulator",
       "chapter": "Computer Networks",
       "risk": ""
     },
     "client": {
-      "ipa": "ˈklaɪənt",
+      "ipa": "ˈklaɪrnt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
       "risk": ""
     },
     "ip": {
-      "ipa": "ˌaɪ ˈpiː",
+      "ipa": "ˌaɪ ˈpi",
       "read_as": "letters",
       "expansion": "Internet Protocol",
       "chapter": "Computer Networks",
@@ -745,133 +739,133 @@
       "risk": ""
     },
     "wlan": {
-      "ipa": "ˌdʌbljuː ˈlæn",
+      "ipa": "ˌdʌblju ˈlæn",
       "read_as": "mixed",
       "expansion": "Wireless Local Area Network",
       "chapter": "Computer Networks",
       "risk": ""
     },
     "intranet": {
-      "ipa": "ˈɪntrəˌnet",
+      "ipa": "ˈɪntrəˌnɛt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
       "risk": ""
     },
     "extranet": {
-      "ipa": "ˈekstrəˌnet",
+      "ipa": "ˈɛkstrəˌnɛt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Networks",
       "risk": ""
     },
     "www": {
-      "ipa": "ˌdʌbljuː dʌbljuː ˈdʌbljuː",
+      "ipa": "ˌdʌblju dʌblju ˈdʌblju",
       "read_as": "letters",
       "expansion": "World Wide Web",
       "chapter": "Computer Networks / Web Design",
       "risk": ""
     },
     "url": {
-      "ipa": "ˌjuː ɑːr ˈel",
+      "ipa": "ˌju ɑr ˈɛl",
       "read_as": "letters",
       "expansion": "Uniform Resource Locator",
       "chapter": "Computer Networks / Web Design",
       "risk": ""
     },
     "http": {
-      "ipa": "ˌetʃ tiː tiː ˈpiː",
+      "ipa": "ˌɛtʃ ti ti ˈpi",
       "read_as": "letters",
       "expansion": "Hypertext Transfer Protocol",
       "chapter": "Computer Networks / Web Design",
       "risk": ""
     },
     "html": {
-      "ipa": "ˌetʃ tiː em ˈel",
+      "ipa": "ˌɛtʃ ti ɛm ˈɛl",
       "read_as": "letters",
       "expansion": "Hypertext Markup Language",
       "chapter": "Web Design",
       "risk": ""
     },
     "css": {
-      "ipa": "ˌsiː es ˈes",
+      "ipa": "ˌsi ɛs ˈɛs",
       "read_as": "letters",
       "expansion": "Cascading Style Sheets",
       "chapter": "Web Design",
       "risk": ""
     },
     "programming": {
-      "ipa": "ˈprəʊˌɡræmɪŋ",
+      "ipa": "ˈproʊˌgræmɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "algorithm": {
-      "ipa": "ˈælɡəˌrɪðəm",
+      "ipa": "ˈælgəˌrɪðəm",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "flowchart": {
-      "ipa": "ˈfləʊˌtʃɑːt",
+      "ipa": "ˈfloʊˌtʃɑrt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "pseudocode": {
-      "ipa": "ˈsjuːdəʊˌkəʊd",
+      "ipa": "ˈsjudoʊˌkoʊd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "variable": {
-      "ipa": "ˈveərɪəbəl",
+      "ipa": "ˈvɛrɪrbəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "constant": {
-      "ipa": "ˈkɒnstənt",
+      "ipa": "ˈkɑnstənt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "loop": {
-      "ipa": "luːp",
+      "ipa": "lup",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "sequence": {
-      "ipa": "ˈsiːkwəns",
+      "ipa": "ˈsikwəns",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "selection": {
-      "ipa": "sɪˈlekʃən",
+      "ipa": "sɪˈlɛkʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "compiler": {
-      "ipa": "kəmˈpaɪlə",
+      "ipa": "kəmˈpaɪlər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "interpreter": {
-      "ipa": "ɪnˈtɜːprɪtə",
+      "ipa": "ɪnˈtərprɪtər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
@@ -892,28 +886,28 @@
       "risk": ""
     },
     "source": {
-      "ipa": "sɔːs",
+      "ipa": "sɔrs",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "cyber": {
-      "ipa": "ˈsaɪbə",
+      "ipa": "ˈsaɪbər",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "security": {
-      "ipa": "sɪˈkjuərɪtɪ",
+      "ipa": "sɪˈkjuərɪti",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "firewall": {
-      "ipa": "ˈfaɪəˌwɔːl",
+      "ipa": "ˈfaɪrˌwɔl",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society / Networks",
@@ -927,14 +921,14 @@
       "risk": ""
     },
     "worm": {
-      "ipa": "wɜːm",
+      "ipa": "wərm",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "spyware": {
-      "ipa": "ˈspaɪˌweə",
+      "ipa": "ˈspaɪˌwɛr",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
@@ -976,14 +970,14 @@
       "risk": ""
     },
     "copyright": {
-      "ipa": "ˈkɒpɪˌraɪt",
+      "ipa": "ˈkɑpɪˌraɪt",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "piracy": {
-      "ipa": "ˈpaɪrəsɪ",
+      "ipa": "ˈpaɪrəsi",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
@@ -1011,154 +1005,154 @@
       "risk": "used in e-waste context"
     },
     "cpu": {
-      "ipa": "ˌsiː piː ˈjuː",
+      "ipa": "ˌsi pi ˈju",
       "read_as": "letters",
       "expansion": "Central Processing Unit",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "alu": {
-      "ipa": "ˌeɪ el ˈjuː",
+      "ipa": "ˌeɪ ɛl ˈju",
       "read_as": "letters",
       "expansion": "Arithmetic and Logic Unit",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "bios": {
-      "ipa": "ˈbaɪɒs",
+      "ipa": "ˈbaɪɑs",
       "read_as": "word",
       "expansion": "Basic Input Output System",
       "chapter": "Operating Systems",
       "risk": ""
     },
     "post": {
-      "ipa": "ˌpiː əʊ es ˈtiː",
+      "ipa": "ˌpi oʊ ɛs ˈti",
       "read_as": "letters",
       "expansion": "Power On Self Test",
       "chapter": "Operating Systems",
       "risk": ""
     },
     "cmos": {
-      "ipa": "ˈsiːmɒs",
+      "ipa": "ˈsimɑs",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
       "risk": ""
     },
     "mbr": {
-      "ipa": "ˌem biː ˈɑːr",
+      "ipa": "ˌɛm bi ˈɑr",
       "read_as": "letters",
       "expansion": "Master Boot Record",
       "chapter": "Operating Systems",
       "risk": ""
     },
     "hdmi": {
-      "ipa": "ˌetʃ diː em ˈaɪ",
+      "ipa": "ˌɛtʃ di ɛm ˈaɪ",
       "read_as": "letters",
       "expansion": "High Definition Multimedia Interface",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "vga": {
-      "ipa": "ˌviː dʒiː ˈeɪ",
+      "ipa": "ˌvi dʒi ˈeɪ",
       "read_as": "letters",
       "expansion": "Video Graphics Adapter",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "lcd": {
-      "ipa": "ˌel siː ˈdiː",
+      "ipa": "ˌɛl si ˈdi",
       "read_as": "letters",
       "expansion": "Liquid Crystal Display",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "led": {
-      "ipa": "ˌel iː ˈdiː",
+      "ipa": "ˌɛl i ˈdi",
       "read_as": "letters",
       "expansion": "Light Emitting Diode",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "crt": {
-      "ipa": "ˌsiː ɑː ˈtiː",
+      "ipa": "ˌsi ɑ ˈti",
       "read_as": "letters",
       "expansion": "Cathode Ray Tube",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "vdu": {
-      "ipa": "ˌviː diː ˈjuː",
+      "ipa": "ˌvi di ˈju",
       "read_as": "letters",
       "expansion": "Visual Display Unit",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "micr": {
-      "ipa": "ˌem aɪ siː ˈɑːr",
+      "ipa": "ˌɛm aɪ si ˈɑr",
       "read_as": "letters",
       "expansion": "Magnetic Ink Character Recognition",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "ocr": {
-      "ipa": "ˌəʊ siː ˈɑːr",
+      "ipa": "ˌoʊ si ˈɑr",
       "read_as": "letters",
       "expansion": "Optical Character Recognition",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "omr": {
-      "ipa": "ˌəʊ em ˈɑːr",
+      "ipa": "ˌoʊ ɛm ˈɑr",
       "read_as": "letters",
       "expansion": "Optical Mark Recognition",
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "atm": {
-      "ipa": "ˌeɪ tiː ˈem",
+      "ipa": "ˌeɪ ti ˈɛm",
       "read_as": "letters",
       "expansion": "Automated Teller Machine",
       "chapter": "ICT Applications",
       "risk": ""
     },
     "barcode": {
-      "ipa": "ˈbɑːˌkəʊd",
+      "ipa": "ˈbɑrˌkoʊd",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT Applications",
       "risk": ""
     },
     "touchscreen": {
-      "ipa": "ˈtʌtʃˌskriːn",
+      "ipa": "ˈtʌtʃˌskrin",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "webcam": {
-      "ipa": "ˈwebˌkæm",
+      "ipa": "ˈwɛbˌkæm",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "plotter": {
-      "ipa": "ˈplɒtə",
+      "ipa": "ˈplɑtər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "toner": {
-      "ipa": "ˈtəʊnə",
+      "ipa": "ˈtoʊnər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "analog": {
-      "ipa": "ˈænəlɒɡ",
+      "ipa": "ˈænəlɑg",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
@@ -1172,7 +1166,7 @@
       "risk": ""
     },
     "supercomputer": {
-      "ipa": "ˈsuːpəkəmˌpjuːtə",
+      "ipa": "ˈsupərkəmˌpjutər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
@@ -1186,28 +1180,28 @@
       "risk": ""
     },
     "microcomputer": {
-      "ipa": "ˈmaɪkrəʊkəmˌpjuːtə",
+      "ipa": "ˈmaɪkroʊkəmˌpjutər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "transistor": {
-      "ipa": "tranˈzɪstə",
+      "ipa": "trænˈzɪstər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": ""
     },
     "pentium": {
-      "ipa": "ˈpentɪəm",
+      "ipa": "ˈpɛntɪrm",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": ""
     },
     "megabyte": {
-      "ipa": "ˈmeɡəˌbaɪt",
+      "ipa": "ˈmɛgəˌbaɪt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
@@ -1221,21 +1215,21 @@
       "risk": ""
     },
     "gigabyte": {
-      "ipa": "ˈɡɪɡəˌbaɪt",
+      "ipa": "ˈgɪgəˌbaɪt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
       "risk": ""
     },
     "terabyte": {
-      "ipa": "ˈterəˌbaɪt",
+      "ipa": "ˈtɛrəˌbaɪt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
       "risk": ""
     },
     "petabyte": {
-      "ipa": "ˈpetəˌbaɪt",
+      "ipa": "ˈpɛtəˌbaɪt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Data Representation",
@@ -1249,14 +1243,14 @@
       "risk": ""
     },
     "ebcdic": {
-      "ipa": "ˈebˌsɪdɪk",
+      "ipa": "ˈɛbˌsɪdɪk",
       "read_as": "word",
       "expansion": "Extended Binary Coded Decimal Interchange Code",
       "chapter": "Data Representation",
       "risk": ""
     },
     "bcd": {
-      "ipa": "ˌbiː siː ˈdiː",
+      "ipa": "ˌbi si ˈdi",
       "read_as": "letters",
       "expansion": "Binary Coded Decimal",
       "chapter": "Data Representation",
@@ -1270,63 +1264,63 @@
       "risk": ""
     },
     "hertz": {
-      "ipa": "hɜːts",
+      "ipa": "hərts",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "megahertz": {
-      "ipa": "ˈmeɡəhɜːts",
+      "ipa": "ˈmɛgəhərts",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "gigahertz": {
-      "ipa": "ˈɡɪɡəhɜːts",
+      "ipa": "ˈgɪgəhərts",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "dns": {
-      "ipa": "ˌdiː en ˈes",
+      "ipa": "ˌdi ɛn ˈɛs",
       "read_as": "letters",
       "expansion": "Domain Name System",
       "chapter": "Internet",
       "risk": ""
     },
     "ftp": {
-      "ipa": "ˌef tiː ˈpiː",
+      "ipa": "ˌɛf ti ˈpi",
       "read_as": "letters",
       "expansion": "File Transfer Protocol",
       "chapter": "Internet",
       "risk": ""
     },
     "smtp": {
-      "ipa": "ˌes em tiː ˈpiː",
+      "ipa": "ˌɛs ɛm ti ˈpi",
       "read_as": "letters",
       "expansion": "Simple Mail Transfer Protocol",
       "chapter": "Internet",
       "risk": ""
     },
     "tcp": {
-      "ipa": "ˌtiː siː ˈpiː",
+      "ipa": "ˌti si ˈpi",
       "read_as": "letters",
       "expansion": "Transmission Control Protocol",
       "chapter": "Internet",
       "risk": ""
     },
     "icmp": {
-      "ipa": "ˌaɪ siː em ˈpiː",
+      "ipa": "ˌaɪ si ɛm ˈpi",
       "read_as": "letters",
       "expansion": "Internet Control Message Protocol",
       "chapter": "Internet",
       "risk": ""
     },
     "email": {
-      "ipa": "ˈiːmeɪl",
+      "ipa": "ˈimeɪl",
       "read_as": "word",
       "expansion": "Electronic Mail",
       "chapter": "Internet",
@@ -1340,21 +1334,21 @@
       "risk": ""
     },
     "bluetooth": {
-      "ipa": "ˈbluːtuːθ",
+      "ipa": "ˈblutuθ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "infrared": {
-      "ipa": "ˌɪnfrəˈred",
+      "ipa": "ˌɪnfrəˈrɛd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "microwave": {
-      "ipa": "ˈmaɪkrəʊweɪv",
+      "ipa": "ˈmaɪkroʊweɪv",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
@@ -1368,49 +1362,49 @@
       "risk": ""
     },
     "fiber": {
-      "ipa": "ˈfaɪbə",
+      "ipa": "ˈfaɪbər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "coaxial": {
-      "ipa": "kəʊˈæksiəl",
+      "ipa": "koʊˈæksiəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "simplex": {
-      "ipa": "ˈsɪmpleks",
+      "ipa": "ˈsɪmplɛks",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "duplex": {
-      "ipa": "ˈdjuːpleks",
+      "ipa": "ˈdjuplɛks",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "mesh": {
-      "ipa": "meʃ",
+      "ipa": "mɛʃ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "rfid": {
-      "ipa": "ˌɑːr ef aɪ ˈdiː",
+      "ipa": "ˌɑr ɛf aɪ ˈdi",
       "read_as": "letters",
       "expansion": "Radio Frequency Identification",
       "chapter": "ICT Applications",
       "risk": ""
     },
     "cctv": {
-      "ipa": "ˌsiː siː tiː ˈviː",
+      "ipa": "ˌsi si ti ˈvi",
       "read_as": "letters",
       "expansion": "Closed Circuit Television",
       "chapter": "ICT Applications",
@@ -1431,63 +1425,56 @@
       "risk": ""
     },
     "nor": {
-      "ipa": "nɔːr",
+      "ipa": "nɔr",
       "read_as": "word",
       "expansion": "NOT OR",
       "chapter": "Logic Gates",
       "risk": ""
     },
     "boolean": {
-      "ipa": "ˈbuːlɪən",
+      "ipa": "ˈbulɪrn",
       "read_as": "word",
       "expansion": null,
       "chapter": "Logic Gates",
       "risk": ""
     },
     "truth": {
-      "ipa": "truːθ",
+      "ipa": "truθ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Logic Gates",
       "risk": ""
     },
     "circuit": {
-      "ipa": "ˈsɜːkɪt",
+      "ipa": "ˈsərkɪt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Logic Gates",
       "risk": ""
     },
     "integrated": {
-      "ipa": "ˈɪntɪɡreɪtɪd",
+      "ipa": "ˈɪntɪgreɪtɪd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Logic Gates",
       "risk": ""
     },
     "ntfs": {
-      "ipa": "ˌen tiː ef ˈes",
+      "ipa": "ˌɛn ti ɛf ˈɛs",
       "read_as": "letters",
       "expansion": "New Technology File System",
       "chapter": "Operating Systems",
       "risk": ""
     },
-    "fat32": {
-      "ipa": "ˌef eɪ tiː ˈθɜːti tuː",
-      "read_as": "mixed",
-      "expansion": null,
-      "chapter": "Operating Systems",
-      "risk": ""
-    },
     "partitioning": {
-      "ipa": "ˌpɑːtɪˈʃənɪŋ",
+      "ipa": "pɑrˈtɪʃənɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
       "risk": ""
     },
     "defragmentation": {
-      "ipa": "diːˌfræɡmenˈteɪʃən",
+      "ipa": "diˌfrægmɛnˈteɪʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
@@ -1501,35 +1488,35 @@
       "risk": ""
     },
     "mailmerge": {
-      "ipa": "ˈmeɪlmɜːdʒ",
+      "ipa": "ˈmeɪlmərdʒ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Word Processing",
       "risk": ""
     },
     "libreoffice": {
-      "ipa": "ˈliːbreɪ ˈɒfɪs",
+      "ipa": "ˈlibreɪ ˈɑfɪs",
       "read_as": "word",
       "expansion": null,
       "chapter": "Word Processing",
       "risk": ""
     },
     "excel": {
-      "ipa": "ɪkˈsel",
+      "ipa": "ɪkˈsɛl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Electronic Spreadsheet",
       "risk": ""
     },
     "powerpoint": {
-      "ipa": "ˈpaʊəpɔɪnt",
+      "ipa": "ˈpaʊrpɔɪnt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Electronic Presentations",
       "risk": ""
     },
     "gimp": {
-      "ipa": "ɡɪmp",
+      "ipa": "gɪmp",
       "read_as": "word",
       "expansion": "GNU Image Manipulation Program",
       "chapter": "Multimedia",
@@ -1543,28 +1530,28 @@
       "risk": ""
     },
     "procedure": {
-      "ipa": "prəˈsiːdʒə",
+      "ipa": "prəˈsidʒər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming",
       "risk": ""
     },
     "identifier": {
-      "ipa": "aɪˈdentɪˌfaɪə",
+      "ipa": "aɪˈdɛntɪˌfaɪr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming",
       "risk": ""
     },
     "reserved": {
-      "ipa": "rɪˈzɜːvd",
+      "ipa": "rɪˈzərvd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming",
       "risk": ""
     },
     "modulo": {
-      "ipa": "ˈmɒdjʊləʊ",
+      "ipa": "ˈmɑdjʊloʊ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming",
@@ -1578,21 +1565,14 @@
       "risk": ""
     },
     "object": {
-      "ipa": "ˈɒbdʒɪkt",
+      "ipa": "ˈɑbdʒɪkt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming / Database",
       "risk": ""
     },
-    "g2p_engine": {
-      "ipa": "dʒiː tuː piː ˈendʒɪn",
-      "read_as": "word",
-      "expansion": "Grapheme-to-Phoneme Engine",
-      "chapter": "Research Infrastructure",
-      "risk": ""
-    },
     "telemedicine": {
-      "ipa": "ˌtelɪˈmedɪsɪn",
+      "ipa": "ˌtɛlɪˈmɛdɪsɪn",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT in Health",
@@ -1606,70 +1586,70 @@
       "risk": ""
     },
     "streaming": {
-      "ipa": "ˈstriːmɪŋ",
+      "ipa": "ˈstrimɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Internet",
       "risk": ""
     },
     "browser": {
-      "ipa": "ˈbraʊzə",
+      "ipa": "ˈbraʊzər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Internet",
       "risk": ""
     },
     "search": {
-      "ipa": "sɜːtʃ",
+      "ipa": "sərtʃ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Internet",
       "risk": ""
     },
     "engine": {
-      "ipa": "ˈendʒɪn",
+      "ipa": "ˈɛndʒɪn",
       "read_as": "word",
       "expansion": null,
       "chapter": "Internet",
       "risk": ""
     },
     "javascript": {
-      "ipa": "ˈdʒɑːvəskrɪpt",
+      "ipa": "ˈdʒɑvəskrɪpt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
       "risk": ""
     },
     "php": {
-      "ipa": "ˌpiː etʃ ˈpiː",
+      "ipa": "ˌpi ɛtʃ ˈpi",
       "read_as": "letters",
       "expansion": "PHP Hypertext Preprocessor",
       "chapter": "Web Design",
       "risk": ""
     },
     "cms": {
-      "ipa": "ˌsiː em ˈes",
+      "ipa": "ˌsi ɛm ˈɛs",
       "read_as": "letters",
       "expansion": "Content Management System",
       "chapter": "Web Design",
       "risk": ""
     },
     "joomla": {
-      "ipa": "dʒuːˈmlɑː",
+      "ipa": "dʒuˈmlɑ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
       "risk": ""
     },
     "wordpress": {
-      "ipa": "ˈwɜːdprɛs",
+      "ipa": "ˈwərdprɛs",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
       "risk": ""
     },
     "hosting": {
-      "ipa": "ˈhəʊstɪŋ",
+      "ipa": "ˈhoʊstɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
@@ -1683,42 +1663,42 @@
       "risk": ""
     },
     "server": {
-      "ipa": "ˈsɜːvə",
+      "ipa": "ˈsərvər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "malware": {
-      "ipa": "ˈmælweə",
+      "ipa": "ˈmælwɛr",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "trojan": {
-      "ipa": "ˈtrəʊdʒən",
+      "ipa": "ˈtroʊdʒən",
       "read_as": "word",
       "expansion": "Trojan Horse",
       "chapter": "ICT and Society",
       "risk": ""
     },
     "adware": {
-      "ipa": "ˈædweə",
+      "ipa": "ˈædwɛr",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "hijacker": {
-      "ipa": "ˈhaɪˌdʒækə",
+      "ipa": "ˈhaɪˌdʒækər",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "bot": {
-      "ipa": "bɒt",
+      "ipa": "bɑt",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
@@ -1732,105 +1712,105 @@
       "risk": ""
     },
     "ergonomics": {
-      "ipa": "ˌɜːɡəˈnɒmɪks",
+      "ipa": "ˌərgəˈnɑmɪks",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "mercury": {
-      "ipa": "ˈmɜːkjəri",
+      "ipa": "ˈmərkjəri",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "lms": {
-      "ipa": "ˌel em ˈes",
+      "ipa": "ˌɛl ɛm ˈɛs",
       "read_as": "letters",
       "expansion": "Learning Management System",
       "chapter": "ICT in Education",
       "risk": ""
     },
     "qr": {
-      "ipa": "ˌkjuː ˈɑːr",
+      "ipa": "ˌkju ˈɑr",
       "read_as": "letters",
       "expansion": "Quick Response",
       "chapter": "ICT Applications",
       "risk": ""
     },
     "isbn": {
-      "ipa": "ˌaɪ es biː ˈen",
+      "ipa": "ˌaɪ ɛs bi ˈɛn",
       "read_as": "letters",
       "expansion": "International Standard Book Number",
       "chapter": "ICT Applications",
       "risk": ""
     },
     "icta": {
-      "ipa": "ˌaɪ siː tiː ˈeɪ",
+      "ipa": "ˌaɪ si ti ˈeɪ",
       "read_as": "letters",
       "expansion": "Information Communication Technology Agency",
       "chapter": "e-Government",
       "risk": ""
     },
     "raster": {
-      "ipa": "ˈræstə",
+      "ipa": "ˈræstər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "vector": {
-      "ipa": "ˈvektə",
+      "ipa": "ˈvɛktər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "compression": {
-      "ipa": "kəmˈpreʃən",
+      "ipa": "kəmˈprɛʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "resolution": {
-      "ipa": "ˌrezəˈluːʃən",
+      "ipa": "ˌrɛzəˈluʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "multimedia": {
-      "ipa": "ˌmʌltɪˈmiːdɪə",
+      "ipa": "ˌmʌltɪˈmidɪr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "audio": {
-      "ipa": "ˈɔːdɪəʊ",
+      "ipa": "ˈɔdɪrʊ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "video": {
-      "ipa": "ˈvɪdɪəʊ",
+      "ipa": "ˈvɪdɪrʊ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "sdlc": {
-      "ipa": "ˌes diː el ˈsiː",
+      "ipa": "ˌɛs di ɛl ˈsi",
       "read_as": "letters",
       "expansion": "System Development Life Cycle",
       "chapter": "SDLC",
       "risk": ""
     },
     "waterfall": {
-      "ipa": "ˈwɔːtəfɔːl",
+      "ipa": "ˈwɔtərfɔl",
       "read_as": "word",
       "expansion": null,
       "chapter": "SDLC",
@@ -1851,49 +1831,49 @@
       "risk": ""
     },
     "prototype": {
-      "ipa": "ˈprəʊtətaɪp",
+      "ipa": "ˈproʊtətaɪp",
       "read_as": "word",
       "expansion": null,
       "chapter": "SDLC",
       "risk": ""
     },
     "mri": {
-      "ipa": "ˌem ɑː ˈɑːr",
+      "ipa": "ˌɛm ɑ ˈɑr",
       "read_as": "letters",
       "expansion": "Magnetic Resonance Imaging",
       "chapter": "ICT in Health",
       "risk": ""
     },
     "eeg": {
-      "ipa": "ˌiː iː ˈdʒiː",
+      "ipa": "ˌi i ˈdʒi",
       "read_as": "letters",
       "expansion": "Electroencephalography",
       "chapter": "ICT in Health",
       "risk": ""
     },
     "ecg": {
-      "ipa": "ˌiː siː ˈdʒiː",
+      "ipa": "ˌi si ˈdʒi",
       "read_as": "letters",
       "expansion": "Electrocardiogram",
       "chapter": "ICT in Health",
       "risk": ""
     },
     "assembler": {
-      "ipa": "əˈsemblə",
+      "ipa": "əˈsɛmblər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Languages",
       "risk": ""
     },
     "modulator": {
-      "ipa": "ˈmɒdjʊleɪtə",
+      "ipa": "ˈmɑdjʊleɪtər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Networks",
       "risk": ""
     },
     "composite": {
-      "ipa": "ˈkɒmpəzɪt",
+      "ipa": "ˈkɑmpəzɪt",
       "read_as": "word",
       "expansion": null,
       "chapter": "Database",
@@ -1907,91 +1887,91 @@
       "risk": ""
     },
     "unix": {
-      "ipa": "ˈjuːnɪks",
+      "ipa": "ˈjunɪks",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
       "risk": ""
     },
     "hanthana": {
-      "ipa": "hænˈtɑːnə",
+      "ipa": "hænˈtɑnə",
       "read_as": "word",
       "expansion": null,
       "chapter": "Operating Systems",
       "risk": ""
     },
     "worms": {
-      "ipa": "wɜːmz",
+      "ipa": "wərmz",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "hacker": {
-      "ipa": "ˈhækə",
+      "ipa": "ˈhækər",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "hyperlink": {
-      "ipa": "ˈhaɪpəlɪŋk",
+      "ipa": "ˈhaɪpərlɪŋk",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
       "risk": ""
     },
     "isp": {
-      "ipa": "ˌaɪ es ˈpiː",
+      "ipa": "ˌaɪ ɛs ˈpi",
       "read_as": "letters",
       "expansion": "Internet Service Provider",
       "chapter": "Internet",
       "risk": ""
     },
     "nic": {
-      "ipa": "ˌen aɪ ˈsiː",
+      "ipa": "ˌɛn aɪ ˈsi",
       "read_as": "letters",
       "expansion": "National Identity Card",
       "chapter": "ICT Applications",
       "risk": ""
     },
     "pci": {
-      "ipa": "ˌpiː siː ˈaɪ",
+      "ipa": "ˌpi si ˈaɪ",
       "read_as": "letters",
       "expansion": "Per Capita Income",
       "chapter": "ICT Applications",
       "risk": ""
     },
     "wbt": {
-      "ipa": "ˌdʌbəl juː biː ˈtiː",
+      "ipa": "ˌdʌbəl ju bi ˈti",
       "read_as": "letters",
       "expansion": "Web Based Training",
       "chapter": "ICT in Education",
       "risk": ""
     },
     "eniac": {
-      "ipa": "ˈiːniæk",
+      "ipa": "ˈiniæk",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": ""
     },
     "edvac": {
-      "ipa": "ˈedvæk",
+      "ipa": "ˈɛdvæk",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": ""
     },
     "edsac": {
-      "ipa": "ˈedsæk",
+      "ipa": "ˈɛdsæk",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": ""
     },
     "univac": {
-      "ipa": "ˈjuːnɪvæk",
+      "ipa": "ˈjunɪvæk",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
@@ -2012,105 +1992,91 @@
       "risk": ""
     },
     "msb": {
-      "ipa": "ˌem es ˈbiː",
+      "ipa": "ˌɛm ɛs ˈbi",
       "read_as": "letters",
       "expansion": "Most Significant Bit",
       "chapter": "Data Representation",
       "risk": ""
     },
     "lsb": {
-      "ipa": "ˌel es ˈbiː",
+      "ipa": "ˌɛl ɛs ˈbi",
       "read_as": "letters",
       "expansion": "Least Significant Bit",
       "chapter": "Data Representation",
       "risk": ""
     },
     "msd": {
-      "ipa": "ˌem es ˈdiː",
+      "ipa": "ˌɛm ɛs ˈdi",
       "read_as": "letters",
       "expansion": "Most Significant Digit",
       "chapter": "Data Representation",
       "risk": ""
     },
     "lsd": {
-      "ipa": "ˌel es ˈdiː",
+      "ipa": "ˌɛl ɛs ˈdi",
       "read_as": "letters",
       "expansion": "Least Significant Digit",
       "chapter": "Data Representation",
       "risk": ""
     },
     "rgb": {
-      "ipa": "ˌɑːr dʒiː ˈbiː",
+      "ipa": "ˌɑr dʒi ˈbi",
       "read_as": "letters",
       "expansion": "Red Green Blue",
       "chapter": "Data Representation",
       "risk": ""
     },
     "cd": {
-      "ipa": "ˌsiː ˈdiː",
+      "ipa": "ˌsi ˈdi",
       "read_as": "letters",
       "expansion": "Compact Disc",
       "chapter": "Storage Devices",
       "risk": ""
     },
     "dvd": {
-      "ipa": "ˌdiː viː ˈdiː",
+      "ipa": "ˌdi vi ˈdi",
       "read_as": "letters",
       "expansion": "Digital Versatile Disc",
       "chapter": "Storage Devices",
       "risk": ""
     },
-    "blu-ray": {
-      "ipa": "bluː reɪ",
-      "read_as": "mixed",
-      "expansion": null,
-      "chapter": "Storage Devices",
-      "risk": ""
-    },
     "hdd": {
-      "ipa": "ˌetʃ diː ˈdiː",
+      "ipa": "ˌɛtʃ di ˈdi",
       "read_as": "letters",
       "expansion": "Hard Disk Drive",
       "chapter": "Storage Devices",
       "risk": ""
     },
     "ssd": {
-      "ipa": "ˌes es ˈdiː",
+      "ipa": "ˌɛs ɛs ˈdi",
       "read_as": "letters",
       "expansion": "Solid State Drive",
       "chapter": "Storage Devices",
       "risk": ""
     },
     "serial": {
-      "ipa": "ˈsɪəriəl",
+      "ipa": "ˈsɪriəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "parallel": {
-      "ipa": "ˈpærəlel",
+      "ipa": "ˈpærəlɛl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
-    "rj45": {
-      "ipa": "ˌɑː dʒeɪ ˈfɔː faɪv",
-      "read_as": "mixed",
-      "expansion": null,
-      "chapter": "Networks",
-      "risk": ""
-    },
     "worksheet": {
-      "ipa": "ˈwɜːkʃiːt",
+      "ipa": "ˈwərkʃit",
       "read_as": "word",
       "expansion": null,
       "chapter": "Electronic Spreadsheet",
       "risk": ""
     },
     "audacity": {
-      "ipa": "ɔːˈdæsɪti",
+      "ipa": "ɔˈdæsɪti",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
@@ -2124,105 +2090,105 @@
       "risk": ""
     },
     "elseif": {
-      "ipa": "elˈsɪf",
+      "ipa": "ɛlˈsɪf",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming",
       "risk": ""
     },
     "endif": {
-      "ipa": "endˈɪf",
+      "ipa": "ɛndˈɪf",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming",
       "risk": ""
     },
     "endwhile": {
-      "ipa": "endˈwaɪl",
+      "ipa": "ɛndˈwaɪl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming",
       "risk": ""
     },
     "ewaste": {
-      "ipa": "ˈiːweɪst",
+      "ipa": "ˈiweɪst",
       "read_as": "word",
       "expansion": "Electronic Waste",
       "chapter": "ICT and Society",
       "risk": ""
     },
     "videoconference": {
-      "ipa": "ˈvɪdɪəʊˌkɒnfərəns",
+      "ipa": "ˈvɪdɪrʊˌkɑnfərəns",
       "read_as": "word",
       "expansion": null,
       "chapter": "Internet",
       "risk": ""
     },
     "teleconference": {
-      "ipa": "ˈtelɪˌkɒnfərəns",
+      "ipa": "ˈtɛlɪˌkɑnfərəns",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT Applications",
       "risk": ""
     },
     "egovernment": {
-      "ipa": "ˈiːˌɡʌvənmənt",
+      "ipa": "ˈiˌgʌvərnmənt",
       "read_as": "word",
       "expansion": "e-Government",
       "chapter": "e-Government",
       "risk": ""
     },
     "ebanking": {
-      "ipa": "ˈiːˌbæŋkɪŋ",
+      "ipa": "ˈiˌbæŋkɪŋ",
       "read_as": "word",
       "expansion": "e-Banking",
       "chapter": "ICT Applications",
       "risk": ""
     },
     "ecommerce": {
-      "ipa": "ˈiːˌkɒmɜːs",
+      "ipa": "ˈiˌkɑmərs",
       "read_as": "word",
       "expansion": "e-Commerce",
       "chapter": "ICT Applications",
       "risk": ""
     },
     "greenhouse": {
-      "ipa": "ˈɡriːnhaʊs",
+      "ipa": "ˈgrinhaʊs",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT in Agriculture",
       "risk": ""
     },
     "robotics": {
-      "ipa": "rəʊˈbɒtɪks",
+      "ipa": "roʊˈbɑtɪks",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT in Industry",
       "risk": ""
     },
     "robot": {
-      "ipa": "ˈrəʊbɒt",
+      "ipa": "ˈroʊbɑt",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT in Industry",
       "risk": ""
     },
     "greencomputing": {
-      "ipa": "ɡriːn kəmˈpjuːtɪŋ",
+      "ipa": "grin kəmˈpjutɪŋ",
       "read_as": "word",
       "expansion": "Green Computing",
       "chapter": "ICT and Society",
       "risk": ""
     },
     "integer": {
-      "ipa": "ˈɪntɪdʒə",
+      "ipa": "ˈɪntɪdʒər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming / Pascal",
       "risk": ""
     },
     "char": {
-      "ipa": "tʃɑː",
+      "ipa": "tʃɑr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming / Pascal",
@@ -2236,21 +2202,21 @@
       "risk": ""
     },
     "operator": {
-      "ipa": "ˈɒpəˌreɪtə",
+      "ipa": "ˈɑpəˌreɪtər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "expression": {
-      "ipa": "ɪkˈspreʃən",
+      "ipa": "ɪkˈsprɛʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
       "risk": ""
     },
     "requirement": {
-      "ipa": "rɪˈkwaɪəmənt",
+      "ipa": "rɪˈkwaɪrmənt",
       "read_as": "word",
       "expansion": null,
       "chapter": "SDLC",
@@ -2264,35 +2230,35 @@
       "risk": ""
     },
     "incremental": {
-      "ipa": "ˌɪnkrəˈmentəl",
+      "ipa": "ˌɪnkrəˈmɛntəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "SDLC",
       "risk": ""
     },
     "spiral": {
-      "ipa": "ˈspaɪərəl",
+      "ipa": "ˈspaɪrəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "SDLC",
       "risk": ""
     },
     "acceptance": {
-      "ipa": "əkˈseptəns",
+      "ipa": "əkˈsɛptəns",
       "read_as": "word",
       "expansion": null,
       "chapter": "SDLC",
       "risk": ""
     },
     "integration": {
-      "ipa": "ˌɪntɪˈɡreɪʃən",
+      "ipa": "ˌɪntɪˈgreɪʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "SDLC",
       "risk": ""
     },
     "debugging": {
-      "ipa": "diːˈbʌɡɪŋ",
+      "ipa": "diˈbʌgɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "SDLC",
@@ -2313,56 +2279,56 @@
       "risk": "used in pilot deployment"
     },
     "downloading": {
-      "ipa": "ˈdaʊnˌləʊdɪŋ",
+      "ipa": "ˈdaʊnˌloʊdɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Internet",
       "risk": ""
     },
     "uploading": {
-      "ipa": "ˈʌpˌləʊdɪŋ",
+      "ipa": "ˈʌpˌloʊdɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Internet",
       "risk": ""
     },
     "host": {
-      "ipa": "həʊst",
+      "ipa": "hoʊst",
       "read_as": "word",
       "expansion": null,
       "chapter": "Internet / Web Design",
       "risk": "used in web host context"
     },
     "certificate": {
-      "ipa": "səˈtɪfɪkət",
+      "ipa": "sərˈtɪfɪkət",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "layer": {
-      "ipa": "ˈleɪə",
+      "ipa": "ˈleɪr",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "layers": {
-      "ipa": "ˈleɪəz",
+      "ipa": "ˈleɪrz",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "keyframe": {
-      "ipa": "ˈkiːˌfreɪm",
+      "ipa": "ˈkiˌfreɪm",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia / Animation",
       "risk": ""
     },
     "tween": {
-      "ipa": "twiːn",
+      "ipa": "twin",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia / Animation",
@@ -2376,35 +2342,35 @@
       "risk": ""
     },
     "codec": {
-      "ipa": "ˈkəʊdek",
+      "ipa": "ˈkoʊdɛk",
       "read_as": "word",
       "expansion": "Coder-Decoder",
       "chapter": "Multimedia",
       "risk": ""
     },
     "cmyk": {
-      "ipa": "ˌsiː em waɪ ˈkeɪ",
+      "ipa": "ˌsi ɛm waɪ ˈkeɪ",
       "read_as": "letters",
       "expansion": "Cyan Magenta Yellow Black",
       "chapter": "Multimedia",
       "risk": ""
     },
     "jpeg": {
-      "ipa": "ˈdʒeɪpeɡ",
+      "ipa": "ˈdʒeɪpɛg",
       "read_as": "word",
       "expansion": "Joint Photographic Experts Group",
       "chapter": "Multimedia",
       "risk": ""
     },
     "png": {
-      "ipa": "ˌpiː en ˈdʒiː",
+      "ipa": "ˌpi ɛn ˈdʒi",
       "read_as": "letters",
       "expansion": "Portable Network Graphics",
       "chapter": "Multimedia",
       "risk": ""
     },
     "gif": {
-      "ipa": "ɡɪf",
+      "ipa": "gɪf",
       "read_as": "word",
       "expansion": "Graphics Interchange Format",
       "chapter": "Multimedia",
@@ -2418,14 +2384,14 @@
       "risk": ""
     },
     "lossy": {
-      "ipa": "ˈlɒsi",
+      "ipa": "ˈlɑsi",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
       "risk": ""
     },
     "lossless": {
-      "ipa": "ˈlɒsləs",
+      "ipa": "ˈlɑsləs",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
@@ -2439,21 +2405,21 @@
       "risk": ""
     },
     "tag": {
-      "ipa": "tæɡ",
+      "ipa": "tæg",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
       "risk": "used for HTML tags"
     },
     "paragraph": {
-      "ipa": "ˈpærəˌɡrɑːf",
+      "ipa": "ˈpærəˌgrɑf",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
       "risk": ""
     },
     "anchor": {
-      "ipa": "ˈæŋkə",
+      "ipa": "ˈæŋkər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
@@ -2467,49 +2433,49 @@
       "risk": ""
     },
     "border": {
-      "ipa": "ˈbɔːdə",
+      "ipa": "ˈbɔrdər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Web Design",
       "risk": ""
     },
     "intellectual": {
-      "ipa": "ˌɪntəˈlektʃuəl",
+      "ipa": "ˌɪntəˈlɛktʃuəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": "used in intellectual property context"
     },
     "fraud": {
-      "ipa": "frɔːd",
+      "ipa": "frɔd",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "musculoskeletal": {
-      "ipa": "ˌmʌskjʊləʊˈskelɪtəl",
+      "ipa": "ˌmʌskjʊloʊˈskɛlɪtəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society / Health",
       "risk": ""
     },
     "syndrome": {
-      "ipa": "ˈsɪndrəʊm",
+      "ipa": "ˈsɪndroʊm",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society / Health",
       "risk": "used in CVS, CTS, RSI expansions"
     },
     "posture": {
-      "ipa": "ˈpɒstʃə",
+      "ipa": "ˈpɑstʃər",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society / Health",
       "risk": ""
     },
     "surge": {
-      "ipa": "sɜːdʒ",
+      "ipa": "sərdʒ",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
@@ -2523,63 +2489,63 @@
       "risk": "used in Uninterrupted Power Supply"
     },
     "ups": {
-      "ipa": "ˌjuː piː ˈes",
+      "ipa": "ˌju pi ˈɛs",
       "read_as": "letters",
       "expansion": "Uninterrupted Power Supply",
       "chapter": "ICT and Society",
       "risk": ""
     },
     "deskilling": {
-      "ipa": "diːˈskɪlɪŋ",
+      "ipa": "diˈskɪlɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT and Society",
       "risk": ""
     },
     "microprocessor": {
-      "ipa": "ˌmaɪkrəʊˈprəʊsesə",
+      "ipa": "ˌmaɪkroʊˈproʊsɛsər",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "workstation": {
-      "ipa": "ˈwɜːkˌsteɪʃən",
+      "ipa": "ˈwərkˌsteɪʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": ""
     },
     "terminal": {
-      "ipa": "ˈtɜːmɪnəl",
+      "ipa": "ˈtərmɪnəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
       "risk": "used in mainframe terminal context"
     },
     "palmtop": {
-      "ipa": "ˈpɑːmˌtɒp",
+      "ipa": "ˈpɑmˌtɑp",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": ""
     },
     "fingerprint": {
-      "ipa": "ˈfɪŋɡəˌprɪnt",
+      "ipa": "ˈfɪŋgərˌprɪnt",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT Applications",
       "risk": "used in fingerprint scanner context"
     },
     "biometric": {
-      "ipa": "ˌbaɪəʊˈmetrɪk",
+      "ipa": "ˌbaɪrʊˈmɛtrɪk",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT Applications",
       "risk": ""
     },
     "recognition": {
-      "ipa": "ˌrekəɡˈnɪʃən",
+      "ipa": "ˌrɛkəgˈnɪʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Fundamentals",
@@ -2593,21 +2559,21 @@
       "risk": ""
     },
     "punchcard": {
-      "ipa": "ˈpʌntʃˌkɑːd",
+      "ipa": "ˈpʌntʃˌkɑrd",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": ""
     },
     "irrigation": {
-      "ipa": "ˌɪrɪˈɡeɪʃən",
+      "ipa": "ˌɪrɪˈgeɪʃən",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT in Agriculture",
       "risk": "used in drip irrigation context"
     },
     "shopping": {
-      "ipa": "ˈʃɒpɪŋ",
+      "ipa": "ˈʃɑpɪŋ",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT Applications",
@@ -2621,18 +2587,683 @@
       "risk": "used in traffic light context"
     },
     "artificial": {
-      "ipa": "ˌɑːtɪˈfɪʃəl",
+      "ipa": "ˌɑrtɪˈfɪʃəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": "used in artificial intelligence context"
     },
     "intelligence": {
-      "ipa": "ɪnˈtelɪdʒəns",
+      "ipa": "ɪnˈtɛlɪdʒəns",
       "read_as": "word",
       "expansion": null,
       "chapter": "Computer Generations",
       "risk": "used in artificial intelligence context"
+    },
+    "const": {
+      "ipa": "kɑnst",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "int": {
+      "ipa": "ɪnt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "init": {
+      "ipa": "ɪˈnɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "func": {
+      "ipa": "fʌŋk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "var": {
+      "ipa": "vɑr",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "bool": {
+      "ipa": "bul",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "async": {
+      "ipa": "ˈeɪsɪŋk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "inline": {
+      "ipa": "ˈɪnlaɪn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "nullable": {
+      "ipa": "ˈnʌləbəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "initializer": {
+      "ipa": "ɪˈnɪʃəlaɪzər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "stateful": {
+      "ipa": "ˈsteɪtfʊl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "setstate": {
+      "ipa": "sɛt steɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "initstate": {
+      "ipa": "ɪˈnɪt steɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "ontap": {
+      "ipa": "ɑn tæp",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "onclick": {
+      "ipa": "ɑn klɪk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "onchanged": {
+      "ipa": "ɑn tʃeɪndʒd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "onvalue": {
+      "ipa": "ɑn ˈvælju",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "ismale": {
+      "ipa": "ɪz meɪl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "makesound": {
+      "ipa": "meɪk saʊnd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "dosomething": {
+      "ipa": "du ˈsʌmθɪŋ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "domath": {
+      "ipa": "du mæθ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "printstack": {
+      "ipa": "prɪnt stæk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "tostring": {
+      "ipa": "tu strɪŋ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "jsondecode": {
+      "ipa": "ˈdʒeɪsən diˈkoʊd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "waterpercent": {
+      "ipa": "ˈwɔtər pərˈsɛnt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "camelCase identifier"
+    },
+    "gesturedetector": {
+      "ipa": "ˈdʒɛstʃər dɪˈtɛktər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter widget class"
+    },
+    "futurebuilder": {
+      "ipa": "ˈfjutʃər ˈbɪldər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter widget class"
+    },
+    "sizedbox": {
+      "ipa": "saɪzd bɑks",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter widget class"
+    },
+    "safearea": {
+      "ipa": "seɪf ˈɛriə",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter widget class"
+    },
+    "connectionstate": {
+      "ipa": "kəˈnɛkʃən steɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter class"
+    },
+    "buildcontext": {
+      "ipa": "bɪld ˈkɑntɛkst",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter class"
+    },
+    "icondata": {
+      "ipa": "ˈaɪkɑn ˈdeɪtə",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter class"
+    },
+    "circularprogressindicator": {
+      "ipa": "ˈsərkjʊlər ˈproʊgrɛs ˈɪndɪkeɪtər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter widget class"
+    },
+    "mainaxisalignment": {
+      "ipa": "meɪn ˈæksɪs əˈlaɪnmənt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter property"
+    },
+    "crossaxisalignment": {
+      "ipa": "krɑs ˈæksɪs əˈlaɪnmənt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Flutter property"
+    },
+    "gendertile": {
+      "ipa": "ˈdʒɛndər taɪl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "custom widget name"
+    },
+    "gendertilewidget": {
+      "ipa": "ˈdʒɛndər taɪl ˈwɪdʒɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "custom widget name"
+    },
+    "mdiicons": {
+      "ipa": "ɛm di aɪ ˈaɪkɑnz",
+      "read_as": "mixed",
+      "expansion": "Material Design Icons",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "package class"
+    },
+    "pubspec": {
+      "ipa": "ˈpʌbspɛk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "pubspec.yaml"
+    },
+    "yaml": {
+      "ipa": "ˈjæməl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "embedder": {
+      "ipa": "ɪmˈbɛdər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "runtime": {
+      "ipa": "ˈrʌntaɪm",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "toolchain": {
+      "ipa": "ˈtultʃeɪn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "plugin": {
+      "ipa": "ˈplʌgɪn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "plugins": {
+      "ipa": "ˈplʌgɪnz",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "executable": {
+      "ipa": "ɪgˈzɛkjʊtəbəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "positional": {
+      "ipa": "pəˈzɪʃənəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "interpolation": {
+      "ipa": "ɪnˌtərpəˈleɪʃən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "modifier": {
+      "ipa": "ˈmɑdɪfaɪr",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "inbuilt": {
+      "ipa": "ˈɪnbɪlt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "uncomment": {
+      "ipa": "ʌnˈkɑmɛnt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "semicolon": {
+      "ipa": "ˌsɛmiˈkoʊlən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "performant": {
+      "ipa": "pərˈfɔrmənt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "playlist": {
+      "ipa": "ˈpleɪlɪst",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "horizontals": {
+      "ipa": "ˌhɑrɪˈzɑntəlz",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "verticals": {
+      "ipa": "ˈvərtɪkəlz",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "optimizations": {
+      "ipa": "ˌɑptɪmaɪˈzeɪʃənz",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "programmatically": {
+      "ipa": "ˌproʊgrəˈmætɪkli",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "readme": {
+      "ipa": "rid mi",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "README file"
+    },
+    "apis": {
+      "ipa": "ˌeɪ pi ˈaɪz",
+      "read_as": "letters",
+      "expansion": "Application Programming Interfaces",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "plural acronym; default rule spells A-P-I-S"
+    },
+    "firebase": {
+      "ipa": "ˈfaɪrbeɪs",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "github": {
+      "ipa": "ˈgɪt hʌb",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "git": {
+      "ipa": "gɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "xcode": {
+      "ipa": "ˈɛks koʊd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "macos": {
+      "ipa": "mæk oʊ ˈɛs",
+      "read_as": "mixed",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "default rule cannot read mixed-case macOS"
+    },
+    "macbook": {
+      "ipa": "ˈmækbʊk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "cocoapods": {
+      "ipa": "ˈkoʊkoʊ pɑdz",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "typescript": {
+      "ipa": "ˈtaɪpskrɪpt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "chatgpt": {
+      "ipa": "tʃæt dʒi pi ˈti",
+      "read_as": "mixed",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "chatg": {
+      "ipa": "tʃæt dʒi",
+      "read_as": "mixed",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "truncated ChatGPT, spoken false start"
+    },
+    "openweather": {
+      "ipa": "ˈoʊpən ˈwɛðər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "OpenWeather API"
+    },
+    "openweathermap": {
+      "ipa": "ˈoʊpən ˈwɛðər mæp",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "OpenWeather API"
+    },
+    "openweatherapi": {
+      "ipa": "ˈoʊpən ˈwɛðər ˌeɪ pi ˈaɪ",
+      "read_as": "mixed",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "OpenWeather API"
+    },
+    "dusseldorf": {
+      "ipa": "ˈdʊsəldɔrf",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "written Düsseldorf; the normaliser folds ü to u"
+    },
+    "blu": {
+      "ipa": "blu",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "Blu-ray, split at the hyphen by the normaliser"
+    },
+    "pwd": {
+      "ipa": "ˌpi dʌbəlju ˈdi",
+      "read_as": "letters",
+      "expansion": "Print Working Directory",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "lower-case, default rule cannot spell it"
+    },
+    "md": {
+      "ipa": "ˌɛm ˈdi",
+      "read_as": "letters",
+      "expansion": "Markdown file extension",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": ""
+    },
+    "fn": {
+      "ipa": "ˌɛf ˈɛn",
+      "read_as": "letters",
+      "expansion": "function",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "spelling token; reading not verified against the recording"
+    },
+    "src": {
+      "ipa": "ˌɛs ɑ ˈsi",
+      "read_as": "letters",
+      "expansion": "source",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "spelling token; reading not verified against the recording"
+    },
+    "cm": {
+      "ipa": "ˌsi ˈɛm",
+      "read_as": "letters",
+      "expansion": "centimetre",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "spelling token; reading not verified against the recording"
+    },
+    "sq": {
+      "ipa": "ˌɛs ˈkju",
+      "read_as": "letters",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "spelling token; reading not verified against the recording"
+    },
+    "sqr": {
+      "ipa": "skwɛr",
+      "read_as": "word",
+      "expansion": "square",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "function name; spelling token; reading not verified against the recording"
+    },
+    "stlf": {
+      "ipa": "ˌɛs ti ɛl ˈɛf",
+      "read_as": "letters",
+      "expansion": "stateful widget snippet",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "spelling token; reading not verified against the recording"
+    },
+    "stless": {
+      "ipa": "ˈɛsti lɛs",
+      "read_as": "mixed",
+      "expansion": "stateless widget snippet",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "spelling token; reading not verified against the recording"
+    },
+    "male": {
+      "ipa": "meɪl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "appears in caps; default rule spells it"
+    },
+    "female": {
+      "ipa": "ˈfimeɪl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "appears in caps; default rule spells it"
+    },
+    "height": {
+      "ipa": "haɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "appears in caps; default rule spells it"
+    },
+    "weight": {
+      "ipa": "weɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "appears in caps; default rule spells it"
+    },
+    "age": {
+      "ipa": "eɪdʒ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "appears in caps; default rule spells it"
+    },
+    "calculate": {
+      "ipa": "ˈkælkjʊleɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "appears in caps; default rule spells it"
+    },
+    "path": {
+      "ipa": "pɑθ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "appears in caps; default rule spells it"
+    },
+    "api": {
+      "ipa": "ˌeɪ pi ˈaɪ",
+      "read_as": "letters",
+      "expansion": "Application Programming Interface",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "also written in lower case; the default rule only spells capitals"
+    },
+    "json": {
+      "ipa": "ˈdʒeɪsən",
+      "read_as": "word",
+      "expansion": "JavaScript Object Notation",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "also written in lower case"
+    },
+    "mdi": {
+      "ipa": "ˌɛm di ˈaɪ",
+      "read_as": "letters",
+      "expansion": "Material Design Icons",
+      "chapter": "Mobile App Development (Flutter)",
+      "risk": "also written in lower case; the default rule only spells capitals"
+    },
+    "i'm": {
+      "ipa": "aɪm",
+      "read_as": "word",
+      "expansion": "I am",
+      "chapter": "General Syntax",
+      "risk": "eng_to_ipa gives the reduced form /əm/"
     }
   },
   "si_lexicon": {
@@ -2645,7 +3276,7 @@
       "risk": "requires explicit dental d̪ closure mapping to bypass phonotactic reductions"
     },
     "ලංකා": {
-      "ipa": "langkaː",
+      "ipa": "laŋkaː",
       "english_equiv": "Lanka",
       "chapter": "General Syntax",
       "issue_type": "proper_noun",
@@ -2653,7 +3284,7 @@
       "risk": ""
     },
     "දත්ත": {
-      "ipa": "d̪at̪t̪a",
+      "ipa": "d̪at̪t̪ə",
       "english_equiv": "Data",
       "chapter": "Introduction to ICT",
       "issue_type": "geminate",
@@ -2661,7 +3292,7 @@
       "risk": "ත්ත is a doubled consonant; naive models skip the hold duration"
     },
     "තොරතුරු": {
-      "ipa": "t̪orat̪uru",
+      "ipa": "t̪orət̪uru",
       "english_equiv": "Information",
       "chapter": "Introduction to ICT",
       "issue_type": "stress",
@@ -2669,7 +3300,7 @@
       "risk": "four syllables with flat stress distribution profiles"
     },
     "පද්ධති": {
-      "ipa": "pad̪d̪hat̪i",
+      "ipa": "pad̪d̪ət̪i",
       "english_equiv": "Systems",
       "chapter": "Introduction to ICT",
       "issue_type": "conjunct",
@@ -2677,7 +3308,7 @@
       "risk": "ද්ධ conjunct can cause phonetic splitting or vowel insertions"
     },
     "පද්ධතිය": {
-      "ipa": "pad̪d̪hat̪ija",
+      "ipa": "pad̪d̪ət̪ijə",
       "english_equiv": "System",
       "chapter": "Introduction to ICT",
       "issue_type": "conjunct",
@@ -2685,7 +3316,7 @@
       "risk": "ද්ධ conjunct risk"
     },
     "පරිගණක": {
-      "ipa": "parigaɳaka",
+      "ipa": "parigəɳəkə",
       "english_equiv": "Computer / Computing",
       "chapter": "Introduction to ICT",
       "issue_type": "retroflex",
@@ -2693,7 +3324,7 @@
       "risk": "murdhaja ණ retroflex structure must be preserved"
     },
     "පරිගණකය": {
-      "ipa": "parigaɳakaja",
+      "ipa": "parigəɳəkəjə",
       "english_equiv": "Computer",
       "chapter": "Introduction to ICT",
       "issue_type": "retroflex",
@@ -2701,7 +3332,7 @@
       "risk": "retroflex ණ constraint"
     },
     "ජාලකරණය": {
-      "ipa": "dʒaːlakaraɳaja",
+      "ipa": "dʒaːləkərəɳəjə",
       "english_equiv": "Networking",
       "chapter": "Computer Networks",
       "issue_type": "retroflex",
@@ -2709,7 +3340,7 @@
       "risk": "contains retroflex ණ mapping parameters"
     },
     "මෘදුකාංග": {
-      "ipa": "mrud̪ukaːŋga",
+      "ipa": "mrud̪ukaːŋgə",
       "english_equiv": "Software",
       "chapter": "Computer Fundamentals",
       "issue_type": "vocalic_r",
@@ -2717,7 +3348,7 @@
       "risk": "ෘ vocalic-r modifier must route explicitly to avoid breakdown"
     },
     "දෘඩාංග": {
-      "ipa": "d̪ruɖaːŋga",
+      "ipa": "d̪ruɖaːŋgə",
       "english_equiv": "Hardware",
       "chapter": "Computer Fundamentals",
       "issue_type": "vocalic_r",
@@ -2725,7 +3356,7 @@
       "risk": "contains vocalic-r sign ෘ and retroflex ඩ"
     },
     "මතකය": {
-      "ipa": "mat̪akaja",
+      "ipa": "mat̪əkəjə",
       "english_equiv": "Memory",
       "chapter": "Computer Fundamentals",
       "risk": "",
@@ -2733,7 +3364,7 @@
       "confidence": "verified"
     },
     "ආදාන": {
-      "ipa": "aːd̪aːna",
+      "ipa": "aːd̪aːnə",
       "english_equiv": "Input",
       "chapter": "Computer Fundamentals",
       "issue_type": "dental",
@@ -2741,7 +3372,7 @@
       "risk": ""
     },
     "ප්‍රතිදාන": {
-      "ipa": "prat̪id̪aːna",
+      "ipa": "prat̪id̪aːnə",
       "english_equiv": "Output",
       "chapter": "Computer Fundamentals",
       "issue_type": "rakaransaya",
@@ -2749,23 +3380,15 @@
       "risk": "ප්‍ර conjunct requires explicit r blending"
     },
     "ද්විමය": {
-      "ipa": "d̪ʋimaja",
+      "ipa": "d̪ʋiməjə",
       "english_equiv": "Binary",
       "chapter": "Data Representation",
       "issue_type": "conjunct",
       "confidence": "verified",
       "risk": "ද්ව stacked cluster can drop labiodental transition values"
     },
-    "තාගස්_ණය": {
-      "ipa": "t̪aːkʃaɳaja",
-      "english_equiv": "Technology (variant typo)",
-      "chapter": "Introduction to ICT",
-      "issue_type": "conjunct",
-      "confidence": "verified",
-      "risk": "mapped safely to technology fallback profile"
-    },
     "තාක්ෂණය": {
-      "ipa": "t̪aːkʃaɳaja",
+      "ipa": "t̪aːkʃəɳəjə",
       "english_equiv": "Technology",
       "chapter": "Introduction to ICT",
       "issue_type": "conjunct",
@@ -2773,7 +3396,7 @@
       "risk": "ක්ෂ conjunct block mapping validation check"
     },
     "ක්‍රමලේඛන": {
-      "ipa": "kramaleːkhana",
+      "ipa": "kraməleːkənə",
       "english_equiv": "Programming / Coding",
       "chapter": "Programming Structures",
       "issue_type": "rakaransaya",
@@ -2781,7 +3404,7 @@
       "risk": "initial ක්‍ර cluster structure mapping"
     },
     "ක්‍රමලේඛනය": {
-      "ipa": "kramaleːkhanaja",
+      "ipa": "kraməleːkənəjə",
       "english_equiv": "Program / Programming",
       "chapter": "Programming Structures",
       "issue_type": "rakaransaya",
@@ -2789,7 +3412,7 @@
       "risk": ""
     },
     "වගුව": {
-      "ipa": "ʋaguʋa",
+      "ipa": "ʋaguʋə",
       "english_equiv": "Table",
       "chapter": "Spreadsheet / Database",
       "issue_type": "labial",
@@ -2797,7 +3420,7 @@
       "risk": ""
     },
     "ප්‍රස්ථාර": {
-      "ipa": "prasthaːra",
+      "ipa": "prast̪aːrə",
       "english_equiv": "Charts",
       "chapter": "Spreadsheet",
       "issue_type": "conjunct",
@@ -2805,7 +3428,7 @@
       "risk": "ප්‍ර cluster followed by ස්ථ double cluster setup"
     },
     "සන්නිවේදනය": {
-      "ipa": "sanniʋeːd̪anaja",
+      "ipa": "sanniʋeːd̪ənəjə",
       "english_equiv": "Communication",
       "chapter": "Introduction to ICT",
       "issue_type": "dental",
@@ -2813,7 +3436,7 @@
       "risk": ""
     },
     "අන්තර්ජාලය": {
-      "ipa": "ant̪ardʒaːlaja",
+      "ipa": "ant̪ardʒaːləjə",
       "english_equiv": "Internet",
       "chapter": "Computer Networks",
       "issue_type": "conjunct",
@@ -2829,7 +3452,7 @@
       "risk": ""
     },
     "පරම්පරාව": {
-      "ipa": "paramparaːʋa",
+      "ipa": "parampəraːʋə",
       "english_equiv": "Generation",
       "chapter": "Introduction to ICT",
       "issue_type": "labial",
@@ -2837,7 +3460,7 @@
       "risk": ""
     },
     "ප්‍රභව": {
-      "ipa": "prabʰaʋa",
+      "ipa": "prabəʋə",
       "english_equiv": "Source",
       "chapter": "Programming Structures / Open Source",
       "issue_type": "aspirated",
@@ -2845,7 +3468,7 @@
       "risk": "aspirated භ profile parameters check"
     },
     "කේතය": {
-      "ipa": "keːt̪aja",
+      "ipa": "keːt̪əjə",
       "english_equiv": "Code / Source Code",
       "chapter": "Programming Structures",
       "issue_type": "dental",
@@ -2853,7 +3476,7 @@
       "risk": ""
     },
     "සංඛ්‍යා": {
-      "ipa": "saŋkhjaː",
+      "ipa": "saŋkjaː",
       "english_equiv": "Numbers / Digits",
       "chapter": "Data Representation",
       "issue_type": "anusvara",
@@ -2861,7 +3484,7 @@
       "risk": "anusvara bindu followed by ඛ්‍ය cluster setup"
     },
     "න්‍යායාත්මක": {
-      "ipa": "njaːjaːt̪maka",
+      "ipa": "njaːjaːt̪məkə",
       "english_equiv": "Theoretical",
       "chapter": "Logic Gates / General Concepts",
       "issue_type": "conjunct",
@@ -2869,7 +3492,7 @@
       "risk": "න්‍ය conjunct containing dental transitions"
     },
     "තාර්කික": {
-      "ipa": "t̪aːrkika",
+      "ipa": "t̪aːrkikə",
       "english_equiv": "Logical",
       "chapter": "Logic Gates",
       "issue_type": "reph",
@@ -2893,7 +3516,7 @@
       "risk": "used in flowcharts context"
     },
     "විචල්‍යය": {
-      "ipa": "ʋitʃaljaja",
+      "ipa": "ʋitʃaljəjə",
       "english_equiv": "Variable",
       "chapter": "Programming Structures",
       "issue_type": "conjunct",
@@ -2901,7 +3524,7 @@
       "risk": "subscript ්‍ය conjunct mapping constraint"
     },
     "නියතය": {
-      "ipa": "nijat̪aja",
+      "ipa": "nijət̪əjə",
       "english_equiv": "Constant",
       "chapter": "Programming Structures",
       "issue_type": "dental",
@@ -2909,7 +3532,7 @@
       "risk": ""
     },
     "ශ්‍රිතය": {
-      "ipa": "ʃrit̪aja",
+      "ipa": "ʃrit̪əjə",
       "english_equiv": "Function",
       "chapter": "Spreadsheet / Programming",
       "issue_type": "rakaransaya",
@@ -2917,7 +3540,7 @@
       "risk": "ශ්‍ර conjunct blend mapping verification"
     },
     "සූත්‍රය": {
-      "ipa": "suːt̪raja",
+      "ipa": "suːt̪rajə",
       "english_equiv": "Formula / Theorem",
       "chapter": "Spreadsheet",
       "issue_type": "conjunct",
@@ -2925,7 +3548,7 @@
       "risk": "ත්‍ර stacked unit mapping parameter check"
     },
     "දශම": {
-      "ipa": "daʃama",
+      "ipa": "d̪aʃəmə",
       "english_equiv": "Decimal",
       "chapter": "Data Representation",
       "issue_type": "sibilant",
@@ -2933,7 +3556,7 @@
       "risk": "तालव्य ශ तालु sibilant tracking parameters check"
     },
     "ද්වාරය": {
-      "ipa": "dʋaːraja",
+      "ipa": "d̪ʋaːrəjə",
       "english_equiv": "Gate",
       "chapter": "Logic Gates",
       "issue_type": "conjunct",
@@ -2941,7 +3564,7 @@
       "risk": "ද්ව stacked cluster data tracking check"
     },
     "ගොනුව": {
-      "ipa": "gonuʋa",
+      "ipa": "gonuʋə",
       "english_equiv": "File",
       "chapter": "Operating Systems",
       "issue_type": "dental",
@@ -2949,7 +3572,7 @@
       "risk": ""
     },
     "ෆෝල්ඩරය": {
-      "ipa": "foːldaraja",
+      "ipa": "foːlɖərəjə",
       "english_equiv": "Folder",
       "chapter": "Operating Systems",
       "issue_type": "loanword",
@@ -2957,7 +3580,7 @@
       "risk": "starts with mahaprana f configuration parameter"
     },
     "ප්‍රවේශය": {
-      "ipa": "praʋeːʃaja",
+      "ipa": "praʋeːʃəjə",
       "english_equiv": "Access",
       "chapter": "Database / Operating Systems",
       "issue_type": "rakaransaya",
@@ -2965,7 +3588,7 @@
       "risk": ""
     },
     "සැකසුම": {
-      "ipa": "sækasuma",
+      "ipa": "sækəsumə",
       "english_equiv": "Processing / Unit Setup",
       "chapter": "Computer Fundamentals",
       "issue_type": "vocalic",
@@ -2973,7 +3596,7 @@
       "risk": ""
     },
     "මෙවලම්": {
-      "ipa": "meʋalam",
+      "ipa": "meʋəlam",
       "english_equiv": "Utilities / Tools",
       "chapter": "Operating Systems",
       "issue_type": "labial",
@@ -2981,7 +3604,7 @@
       "risk": ""
     },
     "විනිවිදක": {
-      "ipa": "ˈlektʃər slaɪdz",
+      "ipa": "ʋiniʋid̪əkə",
       "english_equiv": "Slides",
       "chapter": "Presentations",
       "issue_type": "dental",
@@ -2989,7 +3612,7 @@
       "risk": "flat dental alignment check"
     },
     "සජීවීකරණ": {
-      "ipa": "sadiːʋiːkaraɳa",
+      "ipa": "sadʒiːʋiːkərəɳə",
       "english_equiv": "Animation",
       "chapter": "Presentations",
       "issue_type": "retroflex",
@@ -3005,7 +3628,7 @@
       "risk": "ends with ශ්‍ර cluster block check"
     },
     "ආන්තරික": {
-      "ipa": "aːnt̪arika",
+      "ipa": "aːnt̪ərikə",
       "english_equiv": "Internal / Interface",
       "chapter": "Computer Fundamentals",
       "issue_type": "conjunct",
@@ -3013,7 +3636,7 @@
       "risk": "න්ත alignment sequence layout check"
     },
     "ආරක්ෂාව": {
-      "ipa": "aːrakʃaːʋa",
+      "ipa": "aːrakʃaːʋə",
       "english_equiv": "Security / Protection",
       "chapter": "ICT and Society",
       "issue_type": "conjunct",
@@ -3021,7 +3644,7 @@
       "risk": "ක්ෂ conjunct execution parameters validation"
     },
     "වෛරස්": {
-      "ipa": "ʋaɪras",
+      "ipa": "ʋairas",
       "english_equiv": "Virus",
       "chapter": "ICT and Society",
       "issue_type": "loanword",
@@ -3029,7 +3652,7 @@
       "risk": ""
     },
     "ගුප්තකේතනය": {
-      "ipa": "gupt̪akeːt̪anaja",
+      "ipa": "gupt̪əkeːt̪ənəjə",
       "english_equiv": "Encryption",
       "chapter": "ICT and Society",
       "issue_type": "conjunct",
@@ -3037,7 +3660,7 @@
       "risk": "ප්ත cluster sequence protection mapping"
     },
     "විසංකේතනය": {
-      "ipa": "ʋisaŋkeːt̪anaja",
+      "ipa": "ʋisaŋkeːt̪ənəjə",
       "english_equiv": "Decryption",
       "chapter": "ICT and Society",
       "issue_type": "anusvara",
@@ -3045,7 +3668,7 @@
       "risk": ""
     },
     "ප්‍රකාශන": {
-      "ipa": "prakaːʃana",
+      "ipa": "prakaːʃənə",
       "english_equiv": "Publications / Patent Rights",
       "chapter": "ICT and Society",
       "issue_type": "rakaransaya",
@@ -3061,7 +3684,7 @@
       "risk": ""
     },
     "ඩිජිටල්": {
-      "ipa": "didʒiʈal",
+      "ipa": "ɖidʒiʈal",
       "english_equiv": "Digital",
       "chapter": "Introduction to ICT / Fundamentals",
       "issue_type": "loanword",
@@ -3069,7 +3692,7 @@
       "risk": "retroflex ʈ mapping execution check"
     },
     "පාලම": {
-      "ipa": "paːlama",
+      "ipa": "paːləmə",
       "english_equiv": "Bridge",
       "chapter": "ICT and Society",
       "issue_type": "labial",
@@ -3077,7 +3700,7 @@
       "risk": "used in digital bridge context"
     },
     "පරතරය": {
-      "ipa": "parat̪araja",
+      "ipa": "parət̪ərəjə",
       "english_equiv": "Divide / Gap",
       "chapter": "ICT and Society",
       "issue_type": "dental",
@@ -3085,7 +3708,7 @@
       "risk": "used in digital divide context"
     },
     "කසළ": {
-      "ipa": "kasaɭa",
+      "ipa": "kasəɭə",
       "english_equiv": "Waste / E-Waste",
       "chapter": "ICT and Society",
       "issue_type": "retroflex",
@@ -3109,7 +3732,7 @@
       "risk": ""
     },
     "නම්": {
-      "ipa": "nəm",
+      "ipa": "nam",
       "english_equiv": "if / namely",
       "chapter": "General Syntax",
       "issue_type": "common",
@@ -3125,7 +3748,7 @@
       "risk": "relational operator expansion from =="
     },
     "දහස්": {
-      "ipa": "dəhəs",
+      "ipa": "d̪ahas",
       "english_equiv": "thousand",
       "chapter": "Data Representation",
       "issue_type": "number",
@@ -3141,7 +3764,7 @@
       "risk": ""
     },
     "හතර": {
-      "ipa": "hət̪ərə",
+      "ipa": "hat̪ərə",
       "english_equiv": "four",
       "chapter": "Data Representation",
       "issue_type": "number",
@@ -3157,7 +3780,7 @@
       "risk": "used in percentage phrasing"
     },
     "ප්‍රතිශතය": {
-      "ipa": "pratiʃət̪əjə",
+      "ipa": "prat̪iʃət̪əjə",
       "english_equiv": "percent",
       "chapter": "Data Representation",
       "issue_type": "conjunct",
@@ -3165,7 +3788,7 @@
       "risk": "ප්‍ර conjunct requires explicit mapping"
     },
     "නිවැරදියි": {
-      "ipa": "niʋæræd̪iji",
+      "ipa": "niʋærəd̪iji",
       "english_equiv": "correct",
       "chapter": "General Syntax",
       "issue_type": "vocalic",
@@ -3173,7 +3796,7 @@
       "risk": "ැ vowel sign must map to æ"
     },
     "එක්දහස්": {
-      "ipa": "ekədəhəs",
+      "ipa": "ekd̪ahas",
       "english_equiv": "one thousand (1024 context)",
       "chapter": "Data Representation",
       "issue_type": "number",
@@ -3189,7 +3812,7 @@
       "risk": "used in එක්දහස්"
     },
     "දහස": {
-      "ipa": "dəhəs",
+      "ipa": "d̪ahəsə",
       "english_equiv": "thousand / one thousand",
       "chapter": "Data Representation",
       "issue_type": "number",
@@ -3197,7 +3820,7 @@
       "risk": ""
     },
     "මිලියන": {
-      "ipa": "milijan",
+      "ipa": "milijənə",
       "english_equiv": "million",
       "chapter": "Data Representation",
       "issue_type": "number",
@@ -3205,7 +3828,7 @@
       "risk": ""
     },
     "බයිනරි": {
-      "ipa": "bainari",
+      "ipa": "bainəri",
       "english_equiv": "Binary",
       "chapter": "Data Representation",
       "issue_type": "loanword",
@@ -3213,7 +3836,7 @@
       "risk": ""
     },
     "අෂ්ටමය": {
-      "ipa": "aʂʈamaja",
+      "ipa": "aʃʈəməjə",
       "english_equiv": "Octal",
       "chapter": "Data Representation",
       "issue_type": "conjunct",
@@ -3221,7 +3844,7 @@
       "risk": "්ෂ් conjunct"
     },
     "හෙක්සාදශම": {
-      "ipa": "heksaːdaʃama",
+      "ipa": "heksaːd̪əʃəmə",
       "english_equiv": "Hexadecimal",
       "chapter": "Data Representation",
       "issue_type": "conjunct",
@@ -3244,32 +3867,16 @@
       "confidence": "verified",
       "risk": ""
     },
-    "විද්‍යුත් තැපෑල": {
-      "ipa": "ʋidjut̪ təpæl",
-      "english_equiv": "Electronic mail",
-      "chapter": "Internet",
-      "issue_type": "conjunct",
-      "confidence": "verified",
-      "risk": "්‍ය ZWJ conjunct"
-    },
     "සකස්කිරීම": {
-      "ipa": "sakaskiriːma",
+      "ipa": "sakaskiriːmə",
       "english_equiv": "Processing",
       "chapter": "Introduction to ICT",
       "issue_type": "conjunct",
       "confidence": "verified",
       "risk": ""
     },
-    "සත්‍ය වගුව": {
-      "ipa": "satjə ʋaɡuʋa",
-      "english_equiv": "Truth table",
-      "chapter": "Logic Gates",
-      "issue_type": "conjunct",
-      "confidence": "verified",
-      "risk": "්‍ය conjunct"
-    },
     "සංයුක්ත": {
-      "ipa": "saŋjukʈa",
+      "ipa": "saŋjukt̪ə",
       "english_equiv": "Combinational",
       "chapter": "Logic Gates",
       "issue_type": "retroflex",
@@ -3277,7 +3884,7 @@
       "risk": ""
     },
     "මූලික": {
-      "ipa": "muːlika",
+      "ipa": "muːlikə",
       "english_equiv": "Basic / Fundamental",
       "chapter": "Logic Gates",
       "issue_type": "vocalic",
@@ -3285,7 +3892,7 @@
       "risk": ""
     },
     "ප්‍රතික්‍රියා": {
-      "ipa": "pratikrijaaː",
+      "ipa": "prat̪ikrijaː",
       "english_equiv": "Gate / Reaction",
       "chapter": "Logic Gates",
       "issue_type": "conjunct",
@@ -3293,7 +3900,7 @@
       "risk": ""
     },
     "වලංගු": {
-      "ipa": "ʋalaŋɡu",
+      "ipa": "ʋalaŋgu",
       "english_equiv": "Valid",
       "chapter": "Database",
       "issue_type": "nasal",
@@ -3301,7 +3908,7 @@
       "risk": ""
     },
     "ප්‍රාථමික": {
-      "ipa": "praːt̪amika",
+      "ipa": "praːt̪əmikə",
       "english_equiv": "Primary",
       "chapter": "Database",
       "issue_type": "rakaransaya",
@@ -3309,39 +3916,23 @@
       "risk": ""
     },
     "විදේශීය": {
-      "ipa": "ʋideːʃiːja",
+      "ipa": "ʋid̪eːʃiːjə",
       "english_equiv": "Foreign",
       "chapter": "Database",
       "issue_type": "conjunct",
       "confidence": "verified",
       "risk": ""
     },
-    "සංයුක්ත ප්‍රාථමික": {
-      "ipa": "saŋjukʈa praːt̪amika",
-      "english_equiv": "Composite primary",
-      "chapter": "Database",
-      "issue_type": "conjunct",
-      "confidence": "verified",
-      "risk": ""
-    },
     "අනුප්‍රාපක": {
-      "ipa": "anupraːpaka",
+      "ipa": "anupraːpəkə",
       "english_equiv": "Foreign key",
       "chapter": "Database",
       "issue_type": "conjunct",
       "confidence": "verified",
       "risk": ""
     },
-    "දත්ත සංචිත": {
-      "ipa": "dət̪t̪a saŋtʃita",
-      "english_equiv": "Database",
-      "chapter": "Database",
-      "issue_type": "conjunct",
-      "confidence": "verified",
-      "risk": ""
-    },
     "විමසුම": {
-      "ipa": "ʋimasuma",
+      "ipa": "ʋiməsumə",
       "english_equiv": "Query",
       "chapter": "Database",
       "issue_type": "labial",
@@ -3349,23 +3940,15 @@
       "risk": ""
     },
     "වාර්තාව": {
-      "ipa": "vaːrt̪aːʋa",
+      "ipa": "ʋaːrt̪aːʋə",
       "english_equiv": "Report",
       "chapter": "Database",
       "issue_type": "retroflex",
       "confidence": "verified",
       "risk": ""
     },
-    "ජීවන චක්‍රය": {
-      "ipa": "dʒiːʋana tʃakrajə",
-      "english_equiv": "Life cycle",
-      "chapter": "SDLC",
-      "issue_type": "conjunct",
-      "confidence": "verified",
-      "risk": ""
-    },
     "විසංයෝජනය": {
-      "ipa": "ʋisaŋjoːdʒanaja",
+      "ipa": "ʋisaŋjoːdʒənəjə",
       "english_equiv": "Integration",
       "chapter": "SDLC",
       "issue_type": "anusvara",
@@ -3373,7 +3956,7 @@
       "risk": ""
     },
     "පරීක්ෂණය": {
-      "ipa": "pariːkʂanaja",
+      "ipa": "pariːkʃəɳəjə",
       "english_equiv": "Testing",
       "chapter": "SDLC",
       "issue_type": "conjunct",
@@ -3381,7 +3964,7 @@
       "risk": "ීක්ෂ cluster"
     },
     "නිරවද්‍යකරණය": {
-      "ipa": "nirawadjəkaranaja",
+      "ipa": "nirəʋad̪jəkərəɳəjə",
       "english_equiv": "Debugging",
       "chapter": "SDLC",
       "issue_type": "conjunct",
@@ -3389,7 +3972,7 @@
       "risk": "්‍ය conjunct"
     },
     "ප්‍රකාශනය": {
-      "ipa": "prakaːʃanaja",
+      "ipa": "prakaːʃənəjə",
       "english_equiv": "Deployment / Publication",
       "chapter": "SDLC / Web",
       "issue_type": "rakaransaya",
@@ -3397,7 +3980,7 @@
       "risk": ""
     },
     "නඩත්තුව": {
-      "ipa": "naɖatt̪uʋa",
+      "ipa": "naɖat̪t̪uʋə",
       "english_equiv": "Maintenance",
       "chapter": "SDLC",
       "issue_type": "retroflex",
@@ -3405,7 +3988,7 @@
       "risk": ""
     },
     "අන්තර්ජාල": {
-      "ipa": "antərjaːla",
+      "ipa": "ant̪ardʒaːlə",
       "english_equiv": "Internet",
       "chapter": "Internet",
       "issue_type": "conjunct",
@@ -3421,7 +4004,7 @@
       "risk": ""
     },
     "විසංකේතන": {
-      "ipa": "ʋisaŋkeːt̪ana",
+      "ipa": "ʋisaŋkeːt̪ənə",
       "english_equiv": "Decryption",
       "chapter": "ICT and Society",
       "issue_type": "anusvara",
@@ -3429,18 +4012,10 @@
       "risk": ""
     },
     "පිටපත්": {
-      "ipa": "piʈapat̪",
+      "ipa": "piʈəpat̪",
       "english_equiv": "Plagiarism / copy",
       "chapter": "ICT and Society",
       "issue_type": "retroflex",
-      "confidence": "verified",
-      "risk": ""
-    },
-    "ඊ-කසළ": {
-      "ipa": "iː kasaɭa",
-      "english_equiv": "E-waste",
-      "chapter": "ICT and Society",
-      "issue_type": "loanword",
       "confidence": "verified",
       "risk": ""
     },
@@ -3453,7 +4028,7 @@
       "risk": ""
     },
     "ධන": {
-      "ipa": "d̪ʰana",
+      "ipa": "d̪anə",
       "english_equiv": "Plus / addition",
       "chapter": "Programming",
       "issue_type": "aspirate",
@@ -3461,7 +4036,7 @@
       "risk": "arithmetic operator"
     },
     "සෘණ": {
-      "ipa": "rɯɳa",
+      "ipa": "ruɳə",
       "english_equiv": "Minus / subtraction",
       "chapter": "Programming",
       "issue_type": "vocalic",
@@ -3469,7 +4044,7 @@
       "risk": ""
     },
     "ගුණ": {
-      "ipa": "ɡuɳa",
+      "ipa": "guɳə",
       "english_equiv": "Multiply",
       "chapter": "Programming",
       "issue_type": "nasal",
@@ -3477,7 +4052,7 @@
       "risk": ""
     },
     "බෙදීම": {
-      "ipa": "bediːma",
+      "ipa": "bed̪iːmə",
       "english_equiv": "Division",
       "chapter": "Programming",
       "issue_type": "dental",
@@ -3493,7 +4068,7 @@
       "risk": "logical operator"
     },
     "සහ": {
-      "ipa": "saha",
+      "ipa": "sahə",
       "english_equiv": "AND",
       "chapter": "Programming",
       "issue_type": "common",
@@ -3517,7 +4092,7 @@
       "risk": ""
     },
     "විශාලයි": {
-      "ipa": "ʋiʃaːlaji",
+      "ipa": "ʋiʃaːləji",
       "english_equiv": "Greater than",
       "chapter": "Programming",
       "issue_type": "conjunct",
@@ -3525,7 +4100,7 @@
       "risk": ""
     },
     "අසමානයි": {
-      "ipa": "asamaːnaji",
+      "ipa": "asəmaːnəji",
       "english_equiv": "Not equal",
       "chapter": "Programming",
       "issue_type": "common",

@@ -1,8 +1,8 @@
 {
-  "synced_at": "2026-09-22T07:00:28+00:00",
+  "synced_at": "2026-10-11T05:25:20+00:00",
   "source_root": "D:\\RUSL\\Final Project\\TTS\\voicelk_ml",
-  "source_commit": "8457401",
-  "frontend_fingerprint": "d61d2579fa2dbd30",
+  "source_commit": "888a1f3",
+  "frontend_fingerprint": "0232c5da96437da8",
   "files_copied": {
     "model_engine": 5,
     "TTS": 309,

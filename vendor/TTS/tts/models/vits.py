@@ -5,6 +5,7 @@ from itertools import chain
 from typing import Dict, List, Tuple, Union
 
 import numpy as np
+import soundfile as sf
 import torch
 import torch.distributed as dist
 import torchaudio
@@ -70,7 +71,10 @@ def load_audio(file_path):
     Return Shapes:
         - x: :math:`[1, T]`
     """
-    x, sr = torchaudio.load(file_path)
+    # Read with soundfile rather than torchaudio.load: from torchaudio 2.9 that call needs
+    # the separate torchcodec package (and FFmpeg), which training/Kaggle images may lack.
+    data, sr = sf.read(file_path, dtype="float32", always_2d=True)
+    x = torch.from_numpy(data.T.copy())
     assert (x > 1).sum() + (x < -1).sum() == 0
     return x, sr
 
