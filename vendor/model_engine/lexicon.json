@@ -3,10 +3,10 @@
     "title": "O/L ICT Complete (Grade 10 & 11) Domain-Specific Pronunciation Lexicon",
     "description": "Exhaustive technical vocabulary mapped from Sri Lankan O/L ICT national curriculum textbooks. Optimized for code-switched synthesis pipelines to prevent phonetic collapses on domain jargon, conjuncts, and loanwords.",
     "generated": "2026-07-04",
-    "updated": "2026-10-10",
+    "updated": "2026-10-12",
     "schema_version": "1.5",
     "ipa_format": "plain (character-level phonemes concatenated with no separator within a word, words space-separated, punctuation preserved); English in eng_to_ipa's symbol set, affricates as tʃ / dʒ, Sinhala as spoken (unaspirated, ෂ = ʃ, schwa where everyday speech reduces /a/)",
-    "en_lexicon_count": 465,
+    "en_lexicon_count": 659,
     "si_lexicon_count": 108
   },
   "en_lexicon": {
@@ -823,11 +823,11 @@
       "risk": ""
     },
     "variable": {
-      "ipa": "ˈvɛrɪrbəl",
+      "ipa": "ˈvɛriəbəl",
       "read_as": "word",
       "expansion": null,
       "chapter": "Programming Structures",
-      "risk": ""
+      "risk": "follows the ICT term list reading වේරියබල්"
     },
     "constant": {
       "ipa": "ˈkɑnstənt",
@@ -1026,11 +1026,11 @@
       "risk": ""
     },
     "post": {
-      "ipa": "ˌpi oʊ ɛs ˈti",
-      "read_as": "letters",
-      "expansion": "Power On Self Test",
-      "chapter": "Operating Systems",
-      "risk": ""
+      "ipa": "poʊst",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "read as the word පෝස්ට් (ICT term list); the acronym POST (Power On Self Test) is read the same way"
     },
     "cmos": {
       "ipa": "ˈsimɑs",
@@ -1789,18 +1789,18 @@
       "risk": ""
     },
     "audio": {
-      "ipa": "ˈɔdɪrʊ",
+      "ipa": "ˈɔdioʊ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
-      "risk": ""
+      "risk": "follows the ICT term list reading ඕඩියෝ"
     },
     "video": {
-      "ipa": "ˈvɪdɪrʊ",
+      "ipa": "ˈvɪdioʊ",
       "read_as": "word",
       "expansion": null,
       "chapter": "Multimedia",
-      "risk": ""
+      "risk": "follows the ICT term list reading වීඩියෝ"
     },
     "sdlc": {
       "ipa": "ˌɛs di ɛl ˈsi",
@@ -2167,11 +2167,11 @@
       "risk": ""
     },
     "robot": {
-      "ipa": "ˈroʊbɑt",
+      "ipa": "ˈroʊboʊ",
       "read_as": "word",
       "expansion": null,
       "chapter": "ICT in Industry",
-      "risk": ""
+      "risk": "follows the local reading රොබෝ (ROH-boh), not /ˈroʊbɑt/"
     },
     "greencomputing": {
       "ipa": "grin kəmˈpjutɪŋ",
@@ -2370,11 +2370,11 @@
       "risk": ""
     },
     "gif": {
-      "ipa": "gɪf",
+      "ipa": "dʒɪf",
       "read_as": "word",
       "expansion": "Graphics Interchange Format",
       "chapter": "Multimedia",
-      "risk": "read as hard-g word, not spelled as letters"
+      "risk": "read as a soft-g word ජිෆ් (ICT term list), not spelled as letters"
     },
     "tiff": {
       "ipa": "tɪf",
@@ -3264,6 +3264,1364 @@
       "expansion": "I am",
       "chapter": "General Syntax",
       "risk": "eng_to_ipa gives the reduced form /əm/"
+    },
+    "kilohertz": {
+      "ipa": "ˈkɪləhərts",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Computer Fundamentals",
+      "risk": "eng_to_ipa does not know it; written by the normalizer for kHz"
+    },
+    "zeroth": {
+      "ipa": "ˈziroʊθ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "General Syntax",
+      "risk": "eng_to_ipa does not know it; written by the normalizer for 0th"
+    },
+    "laptop": {
+      "ipa": "ˈlæpˌtɑp",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "desktop": {
+      "ipa": "ˈdɛskˌtɑp",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "mobile": {
+      "ipa": "ˈmoʊbaɪl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": "follows the local reading මොබයිල් (-bile), not the US /ˈmoʊbəl/"
+    },
+    "smartphone": {
+      "ipa": "ˈsmɑrtˌfoʊn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "tablet": {
+      "ipa": "ˈtæblət",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "gpu": {
+      "ipa": "ˌdʒi pi ˈju",
+      "read_as": "letters",
+      "expansion": "Graphics Processing Unit",
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "charger": {
+      "ipa": "ˈtʃɑrdʒər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "battery": {
+      "ipa": "ˈbætəri",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "camera": {
+      "ipa": "ˈkæmərə",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "speaker": {
+      "ipa": "ˈspikər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "microphone": {
+      "ipa": "ˈmaɪkrəˌfoʊn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "headset": {
+      "ipa": "ˈhɛdˌsɛt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "sensor": {
+      "ipa": "ˈsɛnsər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": ""
+    },
+    "hard": {
+      "ipa": "hɑrd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": "ICT term list: part of 'hard disk'"
+    },
+    "disk": {
+      "ipa": "dɪsk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": "ICT term list: part of 'hard disk'"
+    },
+    "pen": {
+      "ipa": "pɛn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Hardware",
+      "risk": "ICT term list: part of 'pen drive'"
+    },
+    "application": {
+      "ipa": "ˌæpləˈkeɪʃən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "app": {
+      "ipa": "æp",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "program": {
+      "ipa": "ˈproʊˌgræm",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "ios": {
+      "ipa": "ˌaɪ oʊ ˈɛs",
+      "read_as": "letters",
+      "expansion": "iPhone Operating System",
+      "chapter": "Software",
+      "risk": "eng_to_ipa reads it as a word /ˈioʊs/"
+    },
+    "update": {
+      "ipa": "ˈəpˌdeɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "upgrade": {
+      "ipa": "ˈəpˌgreɪd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "install": {
+      "ipa": "ˌɪnˈstɔl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "uninstall": {
+      "ipa": "ˌənɪnˈstɔl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": "eng_to_ipa does not know it"
+    },
+    "download": {
+      "ipa": "ˈdaʊnˌloʊd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "upload": {
+      "ipa": "ˈəpˌloʊd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "driver": {
+      "ipa": "ˈdraɪvər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "extension": {
+      "ipa": "ɪkˈstɛnʃən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "version": {
+      "ipa": "ˈvərʒən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "license": {
+      "ipa": "ˈlaɪsəns",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "open": {
+      "ipa": "ˈoʊpən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Software",
+      "risk": ""
+    },
+    "website": {
+      "ipa": "ˈwɛbˌsaɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "webpage": {
+      "ipa": "ˈwɛbˌpeɪdʒ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "web": {
+      "ipa": "wɛb",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "online": {
+      "ipa": "ˈɔnˌlaɪn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "offline": {
+      "ipa": "ˈɔfˌlaɪn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "wi": {
+      "ipa": "waɪ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": "ICT term list: 'Wi-Fi' reaches the G2P as 'Wi Fi'"
+    },
+    "fi": {
+      "ipa": "faɪ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": "ICT term list: 'Wi-Fi' reaches the G2P as 'Wi Fi'"
+    },
+    "bandwidth": {
+      "ipa": "ˈbændˌwɪdθ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "broadband": {
+      "ipa": "ˈbrɔdˌbænd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "hotspot": {
+      "ipa": "ˈhɑtˌspɑt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "signal": {
+      "ipa": "ˈsɪgnəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "address": {
+      "ipa": "ˈædrɛs",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": "ICT term list: part of 'IP address'"
+    },
+    "link": {
+      "ipa": "lɪŋk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "chat": {
+      "ipa": "tʃæt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "call": {
+      "ipa": "kɔl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "vpn": {
+      "ipa": "ˌvi pi ˈɛn",
+      "read_as": "letters",
+      "expansion": "Virtual Private Network",
+      "chapter": "Internet & Networking",
+      "risk": ""
+    },
+    "code": {
+      "ipa": "koʊd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "coding": {
+      "ipa": "ˈkoʊdɪŋ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "framework": {
+      "ipa": "ˈfreɪmˌwərk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "library": {
+      "ipa": "ˈlaɪˌbrɛri",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "bug": {
+      "ipa": "bəg",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "debug": {
+      "ipa": "diˈbəg",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "compile": {
+      "ipa": "kəmˈpaɪl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "script": {
+      "ipa": "skrɪpt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "frontend": {
+      "ipa": "ˈfrəntˌɛnd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "backend": {
+      "ipa": "ˈbækˌɛnd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "developer": {
+      "ipa": "dɪˈvɛləpər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "repository": {
+      "ipa": "riˈpɑzəˌtɔri",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "deploy": {
+      "ipa": "dɪˈplɔɪ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "testing": {
+      "ipa": "ˈtɛstɪŋ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "python": {
+      "ipa": "ˈpaɪθɑn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "java": {
+      "ipa": "ˈdʒɑvə",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Programming & Development",
+      "risk": ""
+    },
+    "password": {
+      "ipa": "ˈpɑsˌwərd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": "follows the local reading පාස්වර්ඩ් (pahs-), not the US /ˈpæs-/"
+    },
+    "username": {
+      "ipa": "ˈjuzərˌneɪm",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "login": {
+      "ipa": "ˈlɔgɪn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": "eng_to_ipa does not know it"
+    },
+    "logout": {
+      "ipa": "ˈlɔgˌaʊt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "account": {
+      "ipa": "əˈkaʊnt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": ""
+    },
+    "hacking": {
+      "ipa": "ˈhækɪŋ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": ""
+    },
+    "otp": {
+      "ipa": "ˌoʊ ti ˈpi",
+      "read_as": "letters",
+      "expansion": "One-Time Password",
+      "chapter": "Security",
+      "risk": ""
+    },
+    "authentication": {
+      "ipa": "ɔˌθɛntəˈkeɪʃən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": ""
+    },
+    "privacy": {
+      "ipa": "ˈpraɪvəsi",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": ""
+    },
+    "scam": {
+      "ipa": "skæm",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": ""
+    },
+    "verification": {
+      "ipa": "ˌvɛrəfəˈkeɪʃən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Security",
+      "risk": ""
+    },
+    "facebook": {
+      "ipa": "ˈfeɪsˌbʊk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "whatsapp": {
+      "ipa": "ˈwɑtsˌæp",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "eng_to_ipa does not know it"
+    },
+    "youtube": {
+      "ipa": "ˈjuˌtjub",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "follows the local reading යූටියුබ් (-tyube)"
+    },
+    "google": {
+      "ipa": "ˈgugəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "instagram": {
+      "ipa": "ˈɪnstəˌgræm",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "eng_to_ipa does not know it"
+    },
+    "tiktok": {
+      "ipa": "ˈtɪkˌtɑk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "eng_to_ipa does not know it"
+    },
+    "zoom": {
+      "ipa": "zum",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "telegram": {
+      "ipa": "ˈtɛləˌgræm",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "share": {
+      "ipa": "ʃɛr",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "like": {
+      "ipa": "laɪk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "comment": {
+      "ipa": "ˈkɑmɛnt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "follow": {
+      "ipa": "ˈfɑloʊ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "subscribe": {
+      "ipa": "səbˈskraɪb",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "profile": {
+      "ipa": "ˈproʊˌfaɪl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "notification": {
+      "ipa": "ˌnoʊtəfəˈkeɪʃən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "inbox": {
+      "ipa": "ˈɪnˌbɑks",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "eng_to_ipa does not know it"
+    },
+    "message": {
+      "ipa": "ˈmɛsɪdʒ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "status": {
+      "ipa": "ˈsteɪtəs",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "follows the local reading ස්ටේටස් (STAY-tus), not /ˈstætəs/"
+    },
+    "story": {
+      "ipa": "ˈstɔri",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "reel": {
+      "ipa": "ril",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "live": {
+      "ipa": "laɪv",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "follows the local reading ලයිව් (as in 'live video'); the verb /lɪv/ is read the same way"
+    },
+    "payment": {
+      "ipa": "ˈpeɪmənt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "ICT term list: part of 'online payment'"
+    },
+    "commerce": {
+      "ipa": "ˈkɑmərs",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": "ICT term list: part of 'e-commerce'"
+    },
+    "digital": {
+      "ipa": "ˈdɪdʒɪtəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Social Media & Digital",
+      "risk": ""
+    },
+    "ai": {
+      "ipa": "ˌeɪ ˈaɪ",
+      "read_as": "letters",
+      "expansion": "Artificial Intelligence",
+      "chapter": "AI & Modern Tech",
+      "risk": ""
+    },
+    "machine": {
+      "ipa": "məˈʃin",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "ICT term list: part of 'machine learning'"
+    },
+    "learning": {
+      "ipa": "ˈlərnɪŋ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "ICT term list: part of 'machine learning' / 'deep learning'"
+    },
+    "deep": {
+      "ipa": "dip",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "ICT term list: part of 'deep learning'"
+    },
+    "science": {
+      "ipa": "ˈsaɪəns",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "ICT term list: part of 'data science'"
+    },
+    "big": {
+      "ipa": "bɪg",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "ICT term list: part of 'big data'"
+    },
+    "iot": {
+      "ipa": "ˌaɪ oʊ ˈti",
+      "read_as": "letters",
+      "expansion": "Internet of Things",
+      "chapter": "AI & Modern Tech",
+      "risk": "eng_to_ipa does not know it"
+    },
+    "automation": {
+      "ipa": "ˌɔtəˈmeɪʃən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": ""
+    },
+    "chatbot": {
+      "ipa": "ˈtʃætˌbɑt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "neural": {
+      "ipa": "ˈnjurəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "follows the local reading නියුරල් (NYOO-ral), not the US /ˈnʊrəl/"
+    },
+    "model": {
+      "ipa": "ˈmɑdəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": ""
+    },
+    "dataset": {
+      "ipa": "ˈdeɪtəˌsɛt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": ""
+    },
+    "blockchain": {
+      "ipa": "ˈblɑkˌtʃeɪn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "cryptocurrency": {
+      "ipa": "ˈkrɪptoʊˌkərənsi",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "virtual": {
+      "ipa": "ˈvərtʃuəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "ICT term list: part of 'virtual reality'"
+    },
+    "reality": {
+      "ipa": "riˈæləti",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "AI & Modern Tech",
+      "risk": "ICT term list: part of 'virtual reality'"
+    },
+    "vr": {
+      "ipa": "ˌvi ˈɑr",
+      "read_as": "letters",
+      "expansion": "Virtual Reality",
+      "chapter": "AI & Modern Tech",
+      "risk": ""
+    },
+    "ar": {
+      "ipa": "ˌeɪ ˈɑr",
+      "read_as": "letters",
+      "expansion": "Augmented Reality",
+      "chapter": "AI & Modern Tech",
+      "risk": "eng_to_ipa reads it as the word /ɑr/"
+    },
+    "pb": {
+      "ipa": "pi bi",
+      "read_as": "letters",
+      "expansion": "Petabyte",
+      "chapter": "Storage & Data Units",
+      "risk": ""
+    },
+    "kbps": {
+      "ipa": "keɪ bi pi ɛs",
+      "read_as": "letters",
+      "expansion": "Kilobits per second",
+      "chapter": "Storage & Data Units",
+      "risk": ""
+    },
+    "mbps": {
+      "ipa": "ɛm bi pi ɛs",
+      "read_as": "letters",
+      "expansion": "Megabits / megabytes per second",
+      "chapter": "Storage & Data Units",
+      "risk": "Mbps and MBps share this key and sound the same when spelled"
+    },
+    "gbps": {
+      "ipa": "dʒi bi pi ɛs",
+      "read_as": "letters",
+      "expansion": "Gigabits / gigabytes per second",
+      "chapter": "Storage & Data Units",
+      "risk": "Gbps and GBps share this key and sound the same when spelled"
+    },
+    "bps": {
+      "ipa": "bɪts pər ˈsɛkənd",
+      "read_as": "mixed",
+      "expansion": "Bits per second",
+      "chapter": "Storage & Data Units",
+      "risk": "read in full, as listed"
+    },
+    "hz": {
+      "ipa": "hɛrts",
+      "read_as": "word",
+      "expansion": "Hertz",
+      "chapter": "Speed & Frequency Units",
+      "risk": "read as the word, not spelled"
+    },
+    "khz": {
+      "ipa": "ˈkɪləhərts",
+      "read_as": "word",
+      "expansion": "Kilohertz",
+      "chapter": "Speed & Frequency Units",
+      "risk": "read as the word, not spelled"
+    },
+    "mhz": {
+      "ipa": "ˈmɛgəhərts",
+      "read_as": "word",
+      "expansion": "Megahertz",
+      "chapter": "Speed & Frequency Units",
+      "risk": "read as the word, not spelled"
+    },
+    "ghz": {
+      "ipa": "ˈgɪgəhərts",
+      "read_as": "word",
+      "expansion": "Gigahertz",
+      "chapter": "Speed & Frequency Units",
+      "risk": "read as the word, not spelled"
+    },
+    "fps": {
+      "ipa": "ˌɛf pi ˈɛs",
+      "read_as": "letters",
+      "expansion": "Frames per second",
+      "chapter": "Speed & Frequency Units",
+      "risk": ""
+    },
+    "millisecond": {
+      "ipa": "ˈmɪləˌsɛkənd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Speed & Frequency Units",
+      "risk": ""
+    },
+    "latency": {
+      "ipa": "ˈleɪtənsi",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Speed & Frequency Units",
+      "risk": ""
+    },
+    "ping": {
+      "ipa": "pɪŋ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Speed & Frequency Units",
+      "risk": ""
+    },
+    "bitrate": {
+      "ipa": "ˈbɪtˌreɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Speed & Frequency Units",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "baud": {
+      "ipa": "bɔd",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Speed & Frequency Units",
+      "risk": ""
+    },
+    "px": {
+      "ipa": "ˈpɪksəl",
+      "read_as": "word",
+      "expansion": "Pixel",
+      "chapter": "Display & Media Units",
+      "risk": "read as 'pixel', not spelled"
+    },
+    "dpi": {
+      "ipa": "ˌdi pi ˈaɪ",
+      "read_as": "letters",
+      "expansion": "Dots per inch",
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "ppi": {
+      "ipa": "ˌpi pi ˈaɪ",
+      "read_as": "letters",
+      "expansion": "Pixels per inch",
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "hd": {
+      "ipa": "ˌeɪtʃ ˈdi",
+      "read_as": "letters",
+      "expansion": "High Definition",
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "fhd": {
+      "ipa": "ˌɛf eɪtʃ ˈdi",
+      "read_as": "letters",
+      "expansion": "Full High Definition",
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "full": {
+      "ipa": "fʊl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": "ICT term list: part of 'Full HD'"
+    },
+    "megapixel": {
+      "ipa": "ˈmɛgəˌpɪksəl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": "eng_to_ipa does not know it and would split it into two words"
+    },
+    "mp": {
+      "ipa": "ɛm pi",
+      "read_as": "letters",
+      "expansion": "Megapixel",
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "inch": {
+      "ipa": "ɪntʃ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "aspect": {
+      "ipa": "ˈæspɛkt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": "ICT term list: part of 'aspect ratio'"
+    },
+    "ratio": {
+      "ipa": "ˈreɪʃioʊ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": "ICT term list: part of 'aspect ratio'"
+    },
+    "refresh": {
+      "ipa": "rɪˈfrɛʃ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": "ICT term list: part of 'refresh rate'"
+    },
+    "rate": {
+      "ipa": "reɪt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": "ICT term list: part of 'refresh rate'"
+    },
+    "mah": {
+      "ipa": "ɛm eɪ eɪtʃ",
+      "read_as": "letters",
+      "expansion": "Milliampere hour",
+      "chapter": "Display & Media Units",
+      "risk": "spelled, as the corpus speakers spell unit abbreviations"
+    },
+    "watt": {
+      "ipa": "wɑt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "volt": {
+      "ipa": "voʊlt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "amp": {
+      "ipa": "æmp",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Display & Media Units",
+      "risk": ""
+    },
+    "pdf": {
+      "ipa": "ˌpi di ˈɛf",
+      "read_as": "letters",
+      "expansion": "Portable Document Format",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "doc": {
+      "ipa": "dɑk",
+      "read_as": "word",
+      "expansion": "Word document",
+      "chapter": "Common File Formats",
+      "risk": "read as a word, not spelled"
+    },
+    "docx": {
+      "ipa": "dɑks",
+      "read_as": "word",
+      "expansion": "Word document (XML)",
+      "chapter": "Common File Formats",
+      "risk": "read as a word, not spelled"
+    },
+    "xls": {
+      "ipa": "ˌɛks ɛl ˈɛs",
+      "read_as": "letters",
+      "expansion": "Excel spreadsheet",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "xlsx": {
+      "ipa": "ˌɛks ɛl ɛs ˈɛks",
+      "read_as": "letters",
+      "expansion": "Excel spreadsheet (XML)",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "ppt": {
+      "ipa": "ˌpi pi ˈti",
+      "read_as": "letters",
+      "expansion": "PowerPoint presentation",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "pptx": {
+      "ipa": "ˌpi pi ti ˈɛks",
+      "read_as": "letters",
+      "expansion": "PowerPoint presentation (XML)",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "txt": {
+      "ipa": "ˌti ɛks ˈti",
+      "read_as": "letters",
+      "expansion": "Plain text",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "csv": {
+      "ipa": "ˌsi ɛs ˈvi",
+      "read_as": "letters",
+      "expansion": "Comma-Separated Values",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "xml": {
+      "ipa": "ˌɛks ɛm ˈɛl",
+      "read_as": "letters",
+      "expansion": "Extensible Markup Language",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "zip": {
+      "ipa": "zɪp",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Common File Formats",
+      "risk": "read as a word, not spelled"
+    },
+    "rar": {
+      "ipa": "rɑr",
+      "read_as": "word",
+      "expansion": "Roshal Archive",
+      "chapter": "Common File Formats",
+      "risk": "read as a word, not spelled"
+    },
+    "jpg": {
+      "ipa": "ˌdʒeɪ pi ˈdʒi",
+      "read_as": "letters",
+      "expansion": "JPEG image",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "svg": {
+      "ipa": "ˌɛs vi ˈdʒi",
+      "read_as": "letters",
+      "expansion": "Scalable Vector Graphics",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "wav": {
+      "ipa": "weɪv",
+      "read_as": "word",
+      "expansion": "Waveform Audio",
+      "chapter": "Common File Formats",
+      "risk": "read as a word, not spelled"
+    },
+    "avi": {
+      "ipa": "ˌeɪ vi ˈaɪ",
+      "read_as": "letters",
+      "expansion": "Audio Video Interleave",
+      "chapter": "Common File Formats",
+      "risk": "eng_to_ipa reads it as a word"
+    },
+    "mkv": {
+      "ipa": "ˌɛm keɪ ˈvi",
+      "read_as": "letters",
+      "expansion": "Matroska Video",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "apk": {
+      "ipa": "ˌeɪ pi ˈkeɪ",
+      "read_as": "letters",
+      "expansion": "Android Package",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "exe": {
+      "ipa": "ˌɛks ˈi",
+      "read_as": "letters",
+      "expansion": "Executable",
+      "chapter": "Common File Formats",
+      "risk": "follows the local reading එක්ස්.ඊ. (ex-E), not E-X-E"
+    },
+    "iso": {
+      "ipa": "ˌaɪ ɛs ˈoʊ",
+      "read_as": "letters",
+      "expansion": "Disc image",
+      "chapter": "Common File Formats",
+      "risk": ""
+    },
+    "document": {
+      "ipa": "ˈdɑkjəmɛnt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "image": {
+      "ipa": "ˈɪmɪdʒ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "text": {
+      "ipa": "tɛkst",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "copy": {
+      "ipa": "ˈkɑpi",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "paste": {
+      "ipa": "peɪst",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "cut": {
+      "ipa": "kət",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "delete": {
+      "ipa": "dɪˈlit",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "save": {
+      "ipa": "seɪv",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "close": {
+      "ipa": "kloʊz",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "print": {
+      "ipa": "prɪnt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "scan": {
+      "ipa": "skæn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "screenshot": {
+      "ipa": "ˈskrinˌʃɑt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": "eng_to_ipa does not know it and splits it wrongly (screens + hot)"
+    },
+    "format": {
+      "ipa": "ˈfɔrˌmæt",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "drive": {
+      "ipa": "draɪv",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "icon": {
+      "ipa": "ˈaɪkɑn",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "menu": {
+      "ipa": "ˈmɛnu",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": "follows the local reading මෙනූ (MEN-oo), not /ˈmɛnju/"
+    },
+    "button": {
+      "ipa": "ˈbətən",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "click": {
+      "ipa": "klɪk",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "scroll": {
+      "ipa": "skroʊl",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "window": {
+      "ipa": "ˈwɪndoʊ",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "tab": {
+      "ipa": "tæb",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "cursor": {
+      "ipa": "ˈkərsər",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "shortcut": {
+      "ipa": "ˈʃɔrtˌkət",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
+    },
+    "settings": {
+      "ipa": "ˈsɛtɪŋz",
+      "read_as": "word",
+      "expansion": null,
+      "chapter": "Files & Basic Terms",
+      "risk": ""
     }
   },
   "si_lexicon": {
