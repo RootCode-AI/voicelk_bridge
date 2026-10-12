@@ -27,6 +27,22 @@ LETTER_TO_SOUND_PATTERN = re.compile(
     "|".join(sorted(LETTER_TO_SOUND, key=len, reverse=True))
 )
 
+# Consonant clusters English allows at the start of a syllable.  eng_to_ipa only
+# knows sp st sk fr fl, so before any other cluster it puts the stress mark inside
+# it (future → fˈjutʃər, quality → kˈwɑləti); _fix_onset_stress moves it in front.
+# At the start of a word nothing can be a coda, so every cluster is safe there;
+# inside a word only the ones that are not compound boundaries (net.work, bath.room).
+WORD_START_ONSETS = {
+    "pr", "br", "tr", "dr", "kr", "gr", "fr", "θr", "ʃr",
+    "pl", "bl", "kl", "gl", "fl", "sl",
+    "tw", "dw", "kw", "gw", "sw", "θw",
+    "pj", "bj", "kj", "gj", "fj", "vj", "mj", "hj",
+    "sp", "st", "sk", "sm", "sn", "spr", "str", "skr", "spl", "skw", "skj",
+}
+MID_WORD_ONSETS = {"kw", "gw", "pj", "bj", "kj", "gj", "fj", "vj", "mj", "hj"}
+ENG_CONSONANT = r"(?:tʃ|dʒ|[pbtdkgfvθðszʃʒhmnŋlrwj])"
+STRESS_INSIDE_ONSET = re.compile(rf"(^|\s)?({ENG_CONSONANT})([ˈˌ])({ENG_CONSONANT}+)")
+
 
 class CodeSwitchedG2P:
     """
@@ -139,9 +155,26 @@ class CodeSwitchedG2P:
         """
         eng_to_ipa output with its affricate ligatures written as the
         two-symbol tʃ / dʒ that the Sinhala side and the lexicon use, so the
-        model learns one symbol sequence per sound.
+        model learns one symbol sequence per sound, and with its stress marks
+        moved out of the onset clusters it does not recognise.
         """
-        return self.en_g2p.convert(text).replace("ʧ", "tʃ").replace("ʤ", "dʒ")
+        converted = self.en_g2p.convert(text).replace("ʧ", "tʃ").replace("ʤ", "dʒ")
+        return self._fix_onset_stress(converted)
+
+    @staticmethod
+    def _fix_onset_stress(ipa_text: str) -> str:
+        """Moves a stress mark in front of the onset cluster it was put inside (fˈju → ˈfju)."""
+        def move(match):
+            word_start, before, mark, after = match.groups()
+            legal = WORD_START_ONSETS if word_start is not None else MID_WORD_ONSETS
+            if before + after in legal:
+                return (word_start or "") + mark + before + after
+            return match.group()
+
+        previous = None
+        while previous != ipa_text:      # repeat so a mark can cross a three-consonant onset
+            previous, ipa_text = ipa_text, STRESS_INSIDE_ONSET.sub(move, ipa_text)
+        return ipa_text
 
     def _process_english(self, text: str) -> str:
         """
