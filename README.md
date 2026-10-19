@@ -52,9 +52,11 @@ anywhere else and set `VOICELK_MODELS_ROOT`. See `models/README.md`, and use
 `tools/slim_checkpoint.py` to drop the optimizer state before copying a run to a
 server.
 
-Two model keys are registered — `pathnirwana` and `custom` — each resolving to the
-newest matching run folder unless pinned through environment variables. Requests
-choose between them.
+Four model keys are registered — `pathnirwana` (multi-speaker), `custom`,
+`speaker_01` and `speaker_02` — each resolving to the newest matching run folder
+unless pinned through environment variables. A pinned folder may be given relative to
+the models root, which is how a continued run kept in a sub-folder is selected.
+Requests choose between them.
 
 ## Running it
 
@@ -127,7 +129,7 @@ that will not load.
 | Variable | Meaning |
 | --- | --- |
 | `VOICELK_MODELS_ROOT` | Folder holding the training-run directories |
-| `VOICELK_MODEL_<KEY>_DIR` / `_CHECKPOINT` | Pin a key to one run or file |
+| `VOICELK_MODEL_<KEY>_DIR` / `_CHECKPOINT` | Pin a key to one run or file; a relative `_DIR` is read against the models root |
 | `VOICELK_DEFAULT_MODEL` | Model used when a request does not name one |
 | `VOICELK_PRELOAD_MODEL` | Load the default model at startup |
 | `VOICELK_BRIDGE_API_KEY` | Shared secret expected in `X-API-Key` |

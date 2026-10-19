@@ -139,6 +139,19 @@ def _discover_model_dir(models_root: Path, *patterns: str) -> Optional[Path]:
     return matches[-1]
 
 
+def _resolve_pinned_dir(models_root: Path, configured: str) -> Path:
+    """
+    A run folder pinned through the environment.
+
+    A relative value is read against the models root, so the same pin keeps working
+    when the checkpoints move to a server with a different root.
+    """
+    path = Path(configured).expanduser()
+    if not path.is_absolute():
+        path = models_root / path
+    return path.resolve()
+
+
 # ---------------------------------------------------------------------------
 # Settings
 # ---------------------------------------------------------------------------
@@ -205,6 +218,16 @@ def _build_models(models_root: Path) -> Dict[str, ModelEntry]:
             ("voicelk_vits_custom*", "custom"),
             "VITS trained on the project's own curated corpus.",
         ),
+        (
+            "speaker_01",
+            ("voicelk_vits_speaker_01*", "speaker_01"),
+            "VITS trained on the recordings of speaker 01 (single speaker).",
+        ),
+        (
+            "speaker_02",
+            ("voicelk_vits_speaker_02*", "speaker_02"),
+            "VITS trained on the recordings of speaker 02 (single speaker).",
+        ),
     ]
 
     models: Dict[str, ModelEntry] = {}
@@ -212,7 +235,7 @@ def _build_models(models_root: Path) -> Dict[str, ModelEntry]:
         env_prefix = f"VOICELK_MODEL_{key.upper()}"
         configured = _env_str(f"{env_prefix}_DIR")
         directory = (
-            Path(configured).expanduser().resolve()
+            _resolve_pinned_dir(models_root, configured)
             if configured
             else _discover_model_dir(models_root, *patterns)
         )

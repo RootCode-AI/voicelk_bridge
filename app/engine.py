@@ -218,7 +218,13 @@ class LoadedModel:
     @property
     def version(self) -> str:
         """Human-readable identity of the weights, stored with every generated clip."""
-        return f"{self.entry.key}:{self.entry.directory.name}:{self.checkpoint_name}"
+        # The path below the models root, not just the folder name: a continued run
+        # can live in a sub-folder whose own name says nothing about the model.
+        try:
+            run = self.entry.directory.relative_to(settings.models_root).as_posix()
+        except ValueError:
+            run = self.entry.directory.name
+        return f"{self.entry.key}:{run}:{self.checkpoint_name}"
 
     def synthesize(self, ipa_text: str, speaker_id: int, speed: float) -> tuple[bytes, float]:
         """Render an IPA string to WAV bytes; returns the bytes and the audio duration."""
