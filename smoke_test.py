@@ -6,7 +6,7 @@ models, converts a sentence to phonemes and finally synthesizes a clip, writing 
 result next to this script so you can listen to it.
 
     python smoke_test.py
-    python smoke_test.py --model custom --text "ඔබට සුබ දවසක්" --out custom.wav
+    python smoke_test.py --model speaker_01 --text "ඔබට සුබ දවසක්" --out speaker_01.wav
 
 Only the standard library is used, so it works from any interpreter.
 """

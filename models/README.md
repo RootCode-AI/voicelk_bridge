@@ -11,7 +11,8 @@ names are matched by prefix, so keep the training-run names:
 ```
 models/
 ├── voicelk_vits_pathnirwana-.../   config.json + best_model.pth (+ speakers.pth)
-└── voicelk_vits_custom-.../        config.json + best_model.pth
+├── voicelk_vits_speaker_01/        config.json + best_model.pth
+└── voicelk_vits_speaker_02/        config.json + best_model.pth
 ```
 
 A checkpoint without the config from the same training run cannot be loaded

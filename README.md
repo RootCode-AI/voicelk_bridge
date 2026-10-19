@@ -52,9 +52,9 @@ anywhere else and set `VOICELK_MODELS_ROOT`. See `models/README.md`, and use
 `tools/slim_checkpoint.py` to drop the optimizer state before copying a run to a
 server.
 
-Four model keys are registered — `pathnirwana` (multi-speaker), `custom`,
-`speaker_01` and `speaker_02` — each resolving to the newest matching run folder
-unless pinned through environment variables. A pinned folder may be given relative to
+Three model keys are registered — `pathnirwana` (multi-speaker), `speaker_01` and
+`speaker_02` — each resolving to the newest matching run folder unless pinned through
+environment variables. They match the voices the backend offers its users. A pinned folder may be given relative to
 the models root, which is how a continued run kept in a sub-folder is selected.
 Requests choose between them.
 
@@ -95,7 +95,7 @@ Interactive API docs: <http://127.0.0.1:8000/docs>
 
 ```bash
 python smoke_test.py                       # health, models, phonemes, one clip
-python smoke_test.py --model custom --speed 0.9 --text "…"
+python smoke_test.py --model speaker_01 --speed 0.9 --text "…"
 ```
 
 It writes the generated clip next to the script so you can listen to it.

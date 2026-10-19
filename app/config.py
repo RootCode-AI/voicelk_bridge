@@ -214,11 +214,6 @@ def _build_models(models_root: Path) -> Dict[str, ModelEntry]:
             "VITS trained on the Pathnirwana corpus (multi-speaker).",
         ),
         (
-            "custom",
-            ("voicelk_vits_custom*", "custom"),
-            "VITS trained on the project's own curated corpus.",
-        ),
-        (
             "speaker_01",
             ("voicelk_vits_speaker_01*", "speaker_01"),
             "VITS trained on the recordings of speaker 01 (single speaker).",
