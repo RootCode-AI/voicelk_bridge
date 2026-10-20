@@ -33,11 +33,13 @@ def call(url: str, api_key: str, payload: dict | None = None) -> tuple[int, byte
     if api_key:
         request.add_header("X-API-Key", api_key)
 
+    # Header names are case-insensitive and uvicorn sends them in lower case, so they
+    # are keyed in lower case here rather than in the spelling the service sets.
     try:
         with urllib.request.urlopen(request, timeout=300) as response:
-            return response.status, response.read(), dict(response.headers)
+            return response.status, response.read(), {k.lower(): v for k, v in response.headers.items()}
     except urllib.error.HTTPError as exc:
-        return exc.code, exc.read(), dict(exc.headers)
+        return exc.code, exc.read(), {k.lower(): v for k, v in exc.headers.items()}
 
 
 def show_json(title: str, status: int, body: bytes) -> None:
@@ -49,6 +51,9 @@ def show_json(title: str, status: int, body: bytes) -> None:
 
 
 def main() -> int:
+    # The output is Sinhala; a Windows console defaults to a code page that cannot show it.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
     parser = argparse.ArgumentParser(description="Smoke-test a running VoiceLK TTS Bridge.")
     parser.add_argument("--base-url", default=os.getenv("VOICELK_BRIDGE_URL", "http://127.0.0.1:8000"))
     parser.add_argument("--api-key", default=os.getenv("VOICELK_BRIDGE_API_KEY", ""))
@@ -87,11 +92,11 @@ def main() -> int:
     out_path.write_bytes(body)
 
     print(f"HTTP {status}, {len(body)} bytes written to {out_path}")
-    print(f"  model      : {headers.get('X-Model-Version')}")
-    print(f"  duration   : {headers.get('X-Audio-Duration')} s")
-    print(f"  render time: {headers.get('X-Processing-Time')} s")
-    print(f"  normalized : {unquote(headers.get('X-Normalized-Text', ''))}")
-    print(f"  phonemes   : {unquote(headers.get('X-Ipa-Sequence', ''))}")
+    print(f"  model      : {headers.get('x-model-version')}")
+    print(f"  duration   : {headers.get('x-audio-duration')} s")
+    print(f"  render time: {headers.get('x-processing-time')} s")
+    print(f"  normalized : {unquote(headers.get('x-normalized-text', ''))}")
+    print(f"  phonemes   : {unquote(headers.get('x-ipa-sequence', ''))}")
     return 0
 
 
