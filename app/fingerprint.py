@@ -29,8 +29,10 @@ FINGERPRINT_SUFFIXES = (".py", ".json")
 
 
 def file_digest(path: Path) -> str:
+    # Line endings are normalised first: git checks the same commit out with CRLF on
+    # Windows and LF on Linux, and that difference changes no phoneme.
     digest = hashlib.sha256()
-    digest.update(path.read_bytes())
+    digest.update(path.read_bytes().replace(b"\r\n", b"\n"))
     return digest.hexdigest()
 
 
