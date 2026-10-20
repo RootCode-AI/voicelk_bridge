@@ -20,7 +20,7 @@ services:
       - ${MODELS_DIR:-./models}:/models:ro
     environment:
       VOICELK_MODELS_ROOT: /models
-      VOICELK_DEFAULT_MODEL: ${VOICELK_DEFAULT_MODEL:-pathnirwana}
+      VOICELK_DEFAULT_MODEL: ${VOICELK_DEFAULT_MODEL:-speaker_03}
       VOICELK_PRELOAD_MODEL: ${VOICELK_PRELOAD_MODEL:-true}
       VOICELK_BRIDGE_API_KEY: ${VOICELK_BRIDGE_API_KEY:?set a shared secret before deploying}
       VOICELK_LOG_LEVEL: ${VOICELK_LOG_LEVEL:-info}

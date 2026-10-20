@@ -209,11 +209,6 @@ def _build_models(models_root: Path) -> Dict[str, ModelEntry]:
     """
     specs = [
         (
-            "pathnirwana",
-            ("voicelk_vits_pathnirwana*", "pathnirwana*"),
-            "VITS trained on the Pathnirwana corpus (multi-speaker).",
-        ),
-        (
             "speaker_01",
             ("voicelk_vits_speaker_01*", "speaker_01"),
             "VITS trained on the recordings of speaker 01 (single speaker).",
@@ -222,6 +217,11 @@ def _build_models(models_root: Path) -> Dict[str, ModelEntry]:
             "speaker_02",
             ("voicelk_vits_speaker_02*", "speaker_02"),
             "VITS trained on the recordings of speaker 02 (single speaker).",
+        ),
+        (
+            "speaker_03",
+            ("voicelk_vits_speaker_03*", "speaker_03"),
+            "VITS trained on the Pathnirwana corpus (multi-speaker).",
         ),
     ]
 
@@ -272,7 +272,7 @@ def load_settings() -> Settings:
     models_root = _env_path("VOICELK_MODELS_ROOT", _default_models_root())
     models = _build_models(models_root)
 
-    default_model = _env_str("VOICELK_DEFAULT_MODEL", "pathnirwana")
+    default_model = _env_str("VOICELK_DEFAULT_MODEL", "speaker_03")
     if default_model not in models and models:
         default_model = next(iter(models))
 
