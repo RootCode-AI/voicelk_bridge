@@ -41,7 +41,7 @@ body:
     attributes:
       label: Model and speaker
       description: The model key, speaker index and speed, plus the `X-Model-Version` header from the synthesis response.
-      placeholder: "pathnirwana, speaker 0, speed 1.0, X-Model-Version: …"
+      placeholder: "speaker_03, speaker 0, speed 1.0, X-Model-Version: …"
     validations:
       required: true
 

@@ -10,9 +10,9 @@ names are matched by prefix, so keep the training-run names:
 
 ```
 models/
-├── voicelk_vits_pathnirwana-.../   config.json + best_model.pth (+ speakers.pth)
 ├── voicelk_vits_speaker_01/        config.json + best_model.pth
-└── voicelk_vits_speaker_02/        config.json + best_model.pth
+├── voicelk_vits_speaker_02/        config.json + best_model.pth
+└── voicelk_vits_speaker_03/        config.json + best_model.pth (+ speakers.pth)
 ```
 
 A checkpoint without the config from the same training run cannot be loaded
@@ -24,14 +24,15 @@ Make an inference-only copy first — it drops the optimizer state, which servin
 reads, and cuts the file to a fraction of its size:
 
 ```bash
-python tools/slim_checkpoint.py --model-dir "/path/to/voicelk_vits_pathnirwana-..."
+python tools/slim_checkpoint.py --model-dir "/path/to/voicelk_vits_speaker_03" \
+    --out-dir "/path/to/deploy/voicelk_vits_speaker_03"
 ```
 
 Then copy the slim run folder across:
 
 ```bash
-rsync -avz --progress "voicelk_vits_pathnirwana-...-slim/" \
-    user@server:/srv/voicelk/models/voicelk_vits_pathnirwana/
+rsync -avz --progress "/path/to/deploy/voicelk_vits_speaker_03/" \
+    user@server:/srv/voicelk/models/voicelk_vits_speaker_03/
 ```
 
 Point the service at that folder with `VOICELK_MODELS_ROOT`, or mount it at `/models`
@@ -39,6 +40,6 @@ when running in a container.
 
 ## Memory
 
-Each loaded model occupies its own memory, so a server that serves both keys needs
-room for both. On a small box, register one model or leave the second one unloaded
-by never requesting it.
+Each loaded model occupies its own memory, so a server that serves every key needs
+room for all of them. On a small box, register fewer models or leave the others unloaded
+by never requesting them.

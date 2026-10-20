@@ -52,9 +52,9 @@ anywhere else and set `VOICELK_MODELS_ROOT`. See `models/README.md`, and use
 `tools/slim_checkpoint.py` to drop the optimizer state before copying a run to a
 server.
 
-Three model keys are registered — `pathnirwana` (multi-speaker), `speaker_01` and
-`speaker_02` — each resolving to the newest matching run folder unless pinned through
-environment variables. They match the voices the backend offers its users. A pinned folder may be given relative to
+Three model keys are registered — `speaker_01` and `speaker_02` (single speaker) and
+`speaker_03` (multi-speaker, trained on the Pathnirwana corpus) — each resolving to the
+newest matching run folder unless pinned through environment variables. They match the voices the backend offers its users. A pinned folder may be given relative to
 the models root, which is how a continued run kept in a sub-folder is selected.
 Requests choose between them.
 
@@ -112,7 +112,7 @@ It writes the generated clip next to the script so you can listen to it.
 Synthesis request body:
 
 ```json
-{ "text": "…", "model": "pathnirwana", "speaker_id": 0, "speed": 1.0 }
+{ "text": "…", "model": "speaker_03", "speaker_id": 0, "speed": 1.0 }
 ```
 
 The response body is the WAV file itself; the bookkeeping travels in headers:
