@@ -52,11 +52,15 @@ anywhere else and set `VOICELK_MODELS_ROOT`. See `models/README.md`, and use
 `tools/slim_checkpoint.py` to drop the optimizer state before copying a run to a
 server.
 
-Three model keys are registered — `speaker_01` and `speaker_02` (single speaker) and
-`speaker_03` (multi-speaker, trained on the Pathnirwana corpus) — each resolving to the
-newest matching run folder unless pinned through environment variables. They match the voices the backend offers its users. A pinned folder may be given relative to
-the models root, which is how a continued run kept in a sub-folder is selected.
-Requests choose between them.
+Three model keys are registered — `speaker_02` and `speaker_02_v2` (single speaker,
+versions 1.0 and 2.0) and `speaker_03` (multi-speaker, trained on the Pathnirwana
+corpus) — each resolving to the newest matching run folder unless pinned through
+environment variables. Folders match by exact run name (or the trainer's
+`<run>-<date>-<hash>` form), so `voicelk_vits_speaker_02` and
+`voicelk_vits_speaker_02_v2` (also accepted as `voicelk_vits_speaker_02 - V2.0`) stay apart. The keys match the voices the backend offers
+its users. A pinned folder may be given relative to the models root, which is how a
+continued run kept in a sub-folder is selected. Requests choose between them.
+`speaker_01` is retired and no longer served.
 
 ## Running it
 
@@ -95,7 +99,7 @@ Interactive API docs: <http://127.0.0.1:8000/docs>
 
 ```bash
 python smoke_test.py                       # health, models, phonemes, one clip
-python smoke_test.py --model speaker_01 --speed 0.9 --text "…"
+python smoke_test.py --model speaker_02 --speed 0.9 --text "…"
 ```
 
 It writes the generated clip next to the script so you can listen to it.

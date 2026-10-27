@@ -207,16 +207,29 @@ def _build_models(models_root: Path) -> Dict[str, ModelEntry]:
     Each key can be pinned with VOICELK_MODEL_<KEY>_DIR / _CHECKPOINT; otherwise
     the newest matching training-run folder under the models root wins.
     """
+    # speaker_01 is retired and no longer served; the backend still lists it so
+    # clients can tell users it is gone.
+    #
+    # Speaker 02 has one key per release. Its patterns match the exact run name or
+    # the trainer's "<run>-<date>-<hash>" folders, never a bare prefix, so the
+    # version 1.0 key cannot pick up a version 2.0 folder. Version 2.0 is kept either
+    # as "voicelk_vits_speaker_02 - V2.0" (the workstation copy) or as
+    # "voicelk_vits_speaker_02_v2" (the server copy, free of spaces).
     specs = [
         (
-            "speaker_01",
-            ("voicelk_vits_speaker_01*", "speaker_01"),
-            "VITS trained on the recordings of speaker 01 (single speaker).",
+            "speaker_02",
+            ("voicelk_vits_speaker_02", "voicelk_vits_speaker_02-*", "speaker_02"),
+            "VITS trained on the recordings of speaker 02 (single speaker), version 1.0.",
         ),
         (
-            "speaker_02",
-            ("voicelk_vits_speaker_02*", "speaker_02"),
-            "VITS trained on the recordings of speaker 02 (single speaker).",
+            "speaker_02_v2",
+            (
+                "voicelk_vits_speaker_02 - V2.0",
+                "voicelk_vits_speaker_02_v2",
+                "voicelk_vits_speaker_02_v2-*",
+                "speaker_02_v2",
+            ),
+            "VITS trained on the recordings of speaker 02 (single speaker), version 2.0.",
         ),
         (
             "speaker_03",

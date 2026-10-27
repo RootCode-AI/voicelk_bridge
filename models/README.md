@@ -6,12 +6,14 @@ megabytes each, far above what a git host accepts, and they change on their own
 schedule anyway.
 
 Each run is one folder holding its `config.json` and one checkpoint file. Folder
-names are matched by prefix, so keep the training-run names:
+names are matched by the exact run name (or the trainer's `<run>-<date>-<hash>`
+form), so keep the training-run names. Speaker 02 version 2.0 is also found as
+`voicelk_vits_speaker_02 - V2.0`; on a server prefer the name without spaces:
 
 ```
 models/
-├── voicelk_vits_speaker_01/        config.json + best_model.pth
-├── voicelk_vits_speaker_02/        config.json + best_model.pth
+├── voicelk_vits_speaker_02/        config.json + best_model.pth   (speaker_02, V1.0)
+├── voicelk_vits_speaker_02_v2/     config.json + best_model.pth   (speaker_02_v2, V2.0)
 └── voicelk_vits_speaker_03/        config.json + best_model.pth (+ speakers.pth)
 ```
 
